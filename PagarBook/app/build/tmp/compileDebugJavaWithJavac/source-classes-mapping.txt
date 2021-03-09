@@ -1,0 +1,2 @@
+com/example/pagarbook/BuildConfig.java
+ com.example.pagarbook.BuildConfig
