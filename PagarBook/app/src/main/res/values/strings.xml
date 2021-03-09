@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PagarBook</string>
+    <string name="select_language">Select Language</string>
+    <string name="please_select_a_language_that_you_can_read_and_understand_comfortably">Please select a language that you can read and understand comfortably</string>
+</resources>
