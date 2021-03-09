@@ -11,8 +11,7 @@ import kotlinx.android.synthetic.main.langauge_item.view.*
 class LanguageAdapter(var listLanguage: List<Language>) :
     RecyclerView.Adapter<LanguageViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LanguageViewHolder {
-        val view =
-            LayoutInflater.from(parent.context)
+        val view = LayoutInflater.from(parent.context)
                 .inflate(R.layout.langauge_item, parent, false)
         return LanguageViewHolder(view)
     }
