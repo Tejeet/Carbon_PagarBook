@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\f9e0fd6a18c24550a127d5e495237466\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\4e220319110994e528ca59d3a7193cd2\jetified-lifecycle-viewmodel-ktx-2.2.0-alpha01\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\ea51956830062886f88cc91bebe6a8b9\jetified-lifecycle-livedata-ktx-2.2.0-alpha01\AndroidManifest.xml:17:1-22:12
@@ -56,25 +56,25 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\beb36a322ae29d89bb540ad38a6ee5f4\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\3358575c28644f76e4b2d0f766cdc30a\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\14a5eeb387199911b98187ed28662f66\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\4fd79494f1059d767a47ec471258eb36\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\4fd79494f1059d767a47ec471258eb36\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\f06cef45415ed268e4308322986b7f5e\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -107,40 +107,44 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ma
 		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:11:9-47
+activity#com.example.pagarbook.Views.Activity.HelpActivity
+ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:12:9-74
+	android:name
+		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:12:19-62
 activity#com.example.pagarbook.Views.Activity.AddStaffActivity
-ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:12:9-78
+ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:13:9-69
 	android:name
-		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:12:19-66
+		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:13:19-66
 activity#com.example.pagarbook.Views.Activity.DashboardActivity
-ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:13:9-70
+ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:14:9-70
 	android:name
-		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:13:19-67
+		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:14:19-67
 activity#com.example.pagarbook.Views.Activity.AccountLogin
-ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:14:9-65
+ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:15:9-65
 	android:name
-		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:14:19-62
+		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:15:19-62
 activity#com.example.pagarbook.Views.MainActivity
-ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:15:9-56
+ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:16:9-56
 	android:name
-		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:15:19-53
+		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:16:19-53
 activity#com.example.pagarbook.Views.Activity.LanguageSelect
-ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:16:9-67
+ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:17:9-67
 	android:name
-		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:16:19-64
+		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:17:19-64
 activity#com.example.pagarbook.Views.Activity.SplashScreen
-ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:17:19-62
+		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:18:19-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml

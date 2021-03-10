@@ -92,6 +92,7 @@
              android:paddingTop="4dp"
              android:paddingEnd="8dp"
              android:text="Edit"
+             android:layout_margin="10dp"
              android:paddingBottom="4dp"
              android:textColor="@color/light_blue"
              android:layout_marginLeft="8dp" />
@@ -178,6 +179,7 @@
                     android:paddingTop="4dp"
                     android:paddingEnd="8dp"
                     android:text="Change"
+                    android:layout_margin="10dp"
                     android:paddingBottom="4dp"
                     android:textColor="@color/light_blue"
                     android:layout_marginLeft="8dp" />
@@ -228,6 +230,7 @@
                     android:paddingTop="4dp"
                     android:paddingEnd="8dp"
                     android:text="Change"
+                    android:layout_margin="10dp"
                     android:paddingBottom="4dp"
                     android:textColor="@color/light_blue"
                     android:layout_marginLeft="8dp" />
@@ -297,6 +300,7 @@
                     android:paddingTop="4dp"
                     android:paddingEnd="8dp"
                     android:text="Edit"
+                    android:layout_margin="10dp"
                     android:paddingBottom="4dp"
                     android:textColor="@color/light_blue"
                     android:layout_marginLeft="8dp" />
@@ -346,6 +350,7 @@
                     android:paddingStart="8dp"
                     android:paddingTop="4dp"
                     android:paddingEnd="8dp"
+                    android:layout_margin="10dp"
                     android:text="Change"
                     android:paddingBottom="4dp"
                     android:textColor="@color/light_blue"
@@ -387,6 +392,56 @@
                 </LinearLayout>
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_hire_profile"
+                    android:layout_marginRight="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textSize="12sp"
+                        android:textColor="#858585"
+                        android:text="Make Job Poster"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvProfileHireStaff"
+                        android:text="Hire Staff"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#edf3fc"
+                    android:background="#0070fd"
+                    android:paddingStart="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingEnd="8dp"
+                    android:text="Create"
+                    android:paddingBottom="4dp"
+                    android:textColor="@color/light_blue"
+                    android:layout_marginLeft="8dp" />
+            </LinearLayout>
+
 
         </LinearLayout>
         <LinearLayout

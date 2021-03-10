@@ -1670,6 +1670,7 @@ drawable ic_clock_black_24dp
 drawable ic_contacts
 drawable ic_default_present
 drawable ic_group_1
+drawable ic_hire_profile
 drawable ic_keyboard_black_24dp
 drawable ic_language
 drawable ic_launcher_background
@@ -1697,6 +1698,7 @@ drawable ic_search
 drawable ic_security_password
 drawable ic_support
 drawable ic_users
+drawable ic_whatsapp
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1729,8 +1731,11 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pagar_video_one
+drawable pagar_video_two
 drawable pagarbook_premium
 drawable rectangle_box_for_pay_now
+drawable rounded_rectangle_for_whatsapp_help
 drawable selfie_and_location_img
 drawable splashscreen
 drawable test_custom_background
@@ -1934,6 +1939,7 @@ id grouping
 id groups
 id guideline
 id header_title
+id helpBack
 id hideable
 id holder_search
 id holder_summary
@@ -2196,6 +2202,7 @@ id tvPersonalInfo
 id tvProfileBusinessName
 id tvProfileBusinessType
 id tvProfileHelp
+id tvProfileHireStaff
 id tvProfileLanguage
 id tvProfileLogout
 id tvProfileNumberOfStaff
@@ -2286,6 +2293,7 @@ layout abc_tooltip
 layout activity_account_login
 layout activity_add_staff
 layout activity_dashboard
+layout activity_help
 layout activity_main
 layout activity_splash_screen
 layout bottom_sheet_layout
