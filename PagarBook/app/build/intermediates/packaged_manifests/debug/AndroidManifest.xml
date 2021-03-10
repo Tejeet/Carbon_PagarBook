@@ -18,10 +18,12 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.PagarBook" >
-        <activity android:name="com.example.pagarbook.Views.AccountLogin" />
+        <activity android:name="com.example.pagarbook.Views.Activity.AddStaffActivity" />
+        <activity android:name="com.example.pagarbook.Views.Activity.DashboardActivity" />
+        <activity android:name="com.example.pagarbook.Views.Activity.AccountLogin" />
         <activity android:name="com.example.pagarbook.Views.MainActivity" />
-        <activity android:name="com.example.pagarbook.LanguageSelect" />
-        <activity android:name="com.example.pagarbook.Views.SplashScreen" >
+        <activity android:name="com.example.pagarbook.Views.Activity.LanguageSelect" />
+        <activity android:name="com.example.pagarbook.Views.Activity.SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

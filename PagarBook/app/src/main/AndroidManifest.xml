@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PagarBook">
-        <activity android:name=".Views.Activity.AccountLogin"></activity>
+        <activity android:name=".Views.Activity.AddStaffActivity"></activity>
+        <activity android:name=".Views.Activity.DashboardActivity" />
+        <activity android:name=".Views.Activity.AccountLogin" />
         <activity android:name=".Views.MainActivity" />
         <activity android:name=".Views.Activity.LanguageSelect" />
         <activity android:name=".Views.Activity.SplashScreen">
