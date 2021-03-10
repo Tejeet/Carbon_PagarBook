@@ -1636,6 +1636,8 @@ drawable annual_subsciption_img
 drawable attendence_summaty_background
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_rounded_red
+drawable bg_solid_corner
 drawable bg_white_solid
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1655,6 +1657,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_add_staff
 drawable ic_arrow_downward
 drawable ic_attendance
 drawable ic_auto_backup
@@ -1687,7 +1690,9 @@ drawable ic_premium_filled
 drawable ic_previous_active
 drawable ic_profile_your_name
 drawable ic_right_arrow
+drawable ic_right_colored
 drawable ic_safe_secure
+drawable ic_salary_slip
 drawable ic_search
 drawable ic_security_password
 drawable ic_support
@@ -1952,6 +1957,7 @@ id italic
 id item_touch_helper_previous_elevation
 id iv_back
 id iv_help
+id iv_icon
 id iv_next
 id iv_prev
 id iv_report
@@ -1962,7 +1968,7 @@ id labelGroup
 id labeled
 id largeLabel
 id layout
-id layout_help
+id layoutStaffHelp
 id left
 id leftToRight
 id line1
@@ -1975,6 +1981,7 @@ id ll_business
 id ll_divider
 id ll_help
 id ll_prev_next
+id ll_salary_slip
 id ll_toolbar
 id masked
 id material_clock_display
@@ -2182,7 +2189,9 @@ id transition_transform
 id triangle
 id tvAcountInfo
 id tvAcountLogin
+id tvBulkPayment
 id tvLanguage
+id tvPaymentLog
 id tvPersonalInfo
 id tvProfileBusinessName
 id tvProfileBusinessType
@@ -2194,10 +2203,12 @@ id tvProfilePhoneNumber
 id tvProfileSecurityPassword
 id tvProfileYourName
 id tv_add_from_contact
+id tv_balance
 id tv_business_name
 id tv_date
 id tv_help
 id tv_search
+id tv_staff_count
 id tv_subtitle
 id tv_title
 id unchecked

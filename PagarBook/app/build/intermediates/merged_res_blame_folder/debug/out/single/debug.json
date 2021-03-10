@@ -8,12 +8,12 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_attendance.xml"
     },
     {
-        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_change_lang.xml.flat",
-        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\change_lang.xml"
-    },
-    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_nav_staff.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_nav_staff.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_change_lang.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\change_lang.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_nav_profile.png.flat",
@@ -30,6 +30,10 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_attendence_summaty_background.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\attendence_summaty_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_rounded_red.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\bg_rounded_red.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -232,6 +236,10 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_business_type.xml"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_add_staff.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_add_staff.xml"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_group_1.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_group_1.png"
     },
@@ -268,6 +276,10 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_premium_filled.png"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_right_colored.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_right_colored.xml"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_contacts.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_contacts.xml"
     },
@@ -282,6 +294,10 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_auto_backup.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_auto_backup.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_solid_corner.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\bg_solid_corner.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_support.xml.flat",
@@ -406,6 +422,10 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_premium_filled.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_premium_filled.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_salary_slip.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_salary_slip.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_language.xml.flat",
