@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="32dp" android:width="32dp" android:viewportWidth="32" android:viewportHeight="32">
-    <path android:fillColor="#eff6ff" android:pathData="M4,0L28,0A4,4 0,0 1,32 4L32,28A4,4 0,0 1,28 32L4,32A4,4 0,0 1,0 28L0,4A4,4 0,0 1,4 0z"/>
-    <path android:fillColor="#0066fd" android:pathData="M20.9121,12.7617C20.9121,14.6053 19.4177,16.0996 17.5742,16.0996C15.7307,16.0996 14.2363,14.6052 14.2363,12.7617C14.2363,10.9182 15.7307,9.4238 17.5742,9.4238C19.4177,9.4238 20.9121,10.9182 20.9121,12.7617Z"/>
-    <path android:fillColor="#0066fd" android:pathData="M13.1514,24.3614H23.9999C23.4155,20.6899 21.6634,17.769 19.4104,16.7674C17.6576,17.8523 15.9057,16.9342 14.3197,15.6826C11.0652,13.3461 12.0667,14.5143 9.5634,7.8385C8.8955,6.2532 6.5589,7.1706 7.1435,8.7565C7.5605,9.8414 8.8963,14.3476 10.2313,15.9336C14.4874,19.2715 13.9863,18.6037 13.1522,24.3623L13.1514,24.3614Z"/>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="#eff6ff"
+        android:pathData="M4,0L28,0A4,4 0,0 1,32 4L32,28A4,4 0,0 1,28 32L4,32A4,4 0,0 1,0 28L0,4A4,4 0,0 1,4 0z" />
+    <path
+        android:fillColor="#0066fd"
+        android:pathData="M20.9121,12.7617C20.9121,14.6053 19.4177,16.0996 17.5742,16.0996C15.7307,16.0996 14.2363,14.6052 14.2363,12.7617C14.2363,10.9182 15.7307,9.4238 17.5742,9.4238C19.4177,9.4238 20.9121,10.9182 20.9121,12.7617Z" />
+    <path
+        android:fillColor="#0066fd"
+        android:pathData="M13.1514,24.3614H23.9999C23.4155,20.6899 21.6634,17.769 19.4104,16.7674C17.6576,17.8523 15.9057,16.9342 14.3197,15.6826C11.0652,13.3461 12.0667,14.5143 9.5634,7.8385C8.8955,6.2532 6.5589,7.1706 7.1435,8.7565C7.5605,9.8414 8.8963,14.3476 10.2313,15.9336C14.4874,19.2715 13.9863,18.6037 13.1522,24.3623L13.1514,24.3614Z" />
 </vector>

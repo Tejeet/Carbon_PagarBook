@@ -1,25 +1,20 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'kotlin-android-extensions'
 }
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
-apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 30
-    buildToolsVersion "30.0.3"
-
+    buildToolsVersion "30.0.2"
     defaultConfig {
-        applicationId "com.example.pagarbook"
-        minSdkVersion 16
+        applicationId "com.masai.mvvmapplication"
+        minSdkVersion 22
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -34,19 +29,7 @@ android {
         jvmTarget = '1.8'
     }
 }
-
 dependencies {
-
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.3.2'
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.google.android.material:material:1.3.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
     def jetpack_version = "2.1.0"
     def arch_version = '2.2.0-alpha01'
     def retrofit_version = "2.6.1"
@@ -60,6 +43,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.google.android.material:material:1.1.0-alpha09'
     // ViewModel and LiveData
     implementation "androidx.lifecycle:lifecycle-extensions:$arch_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$arch_version"
@@ -69,7 +53,8 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlinCoroutineVersion"
     //Room
-    implementation "androidx.room:room-runtime:$jetpack_version"
+    //implementation "androidx.room:room-runtime:$jetpack_version"
+    implementation "androidx.room:room-ktx:$jetpack_version"
     kapt "androidx.room:room-compiler:$jetpack_version"
     kapt "com.android.databinding:compiler:$jetpack_version"
     // Retrofit & OkHttp
@@ -87,4 +72,8 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.github.bumptech.glide:glide:4.8.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+
+    androidTestImplementation 'com.android.support.test:runner:1.0.0'
+    androidTestCompile "android.arch.core:core-testing:1.1.0"
+    testImplementation 'org.robolectric:robolectric:4.0'
 }

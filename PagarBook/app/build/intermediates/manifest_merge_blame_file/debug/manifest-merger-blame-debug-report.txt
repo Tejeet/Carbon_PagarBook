@@ -1,82 +1,73 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.pagarbook"
+3    package="com.masai.mvvmapplication"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
-8-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml
+8        android:minSdkVersion="22"
+8-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml
+9-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:5:5-25:19
-12        android:allowBackup="true"
-12-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.2] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\1214a77393508826b51992a0843a37aa\core-1.3.2\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/Theme.PagarBook" >
-19-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:11:9-47
-20        <activity android:name="com.example.pagarbook.Views.Activity.HelpActivity" />
-20-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:12:9-74
-20-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:12:19-62
-21        <activity android:name="com.example.pagarbook.Views.Activity.AddStaffActivity" />
-21-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:13:9-69
-21-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:13:19-66
-22        <activity android:name="com.example.pagarbook.Views.Activity.DashboardActivity" />
-22-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:14:9-70
-22-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:14:19-67
-23        <activity android:name="com.example.pagarbook.Views.Activity.AccountLogin" />
-23-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:15:9-65
-23-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:15:19-62
-24        <activity android:name="com.example.pagarbook.Views.MainActivity" />
-24-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:16:9-56
-24-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:16:19-53
-25        <activity android:name="com.example.pagarbook.Views.Activity.LanguageSelect" />
-25-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:17:9-67
-25-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:17:19-64
-26        <activity android:name="com.example.pagarbook.Views.Activity.SplashScreen" >
-26-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:18:9-24:20
-26-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:18:19-62
-27            <intent-filter>
-27-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:19:13-23:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:20:17-69
-28-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:20:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:22:17-77
-30-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:22:27-74
-31            </intent-filter>
-32        </activity>
-33
-34        <service
-34-->[androidx.room:room-runtime:2.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\bf920e10596ab8b1974d25b628e15780\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
-35            android:name="androidx.room.MultiInstanceInvalidationService"
-35-->[androidx.room:room-runtime:2.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\bf920e10596ab8b1974d25b628e15780\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
-36            android:exported="false" />
-36-->[androidx.room:room-runtime:2.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\bf920e10596ab8b1974d25b628e15780\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
-37
-38        <provider
-38-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fc88086e0f1ca94ce4ca6c7fbdfb0ff2\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:23:9-27:43
-39            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-39-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fc88086e0f1ca94ce4ca6c7fbdfb0ff2\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:24:13-79
-40            android:authorities="com.example.pagarbook.lifecycle-process"
-40-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fc88086e0f1ca94ce4ca6c7fbdfb0ff2\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:25:13-69
-41            android:exported="false"
-41-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fc88086e0f1ca94ce4ca6c7fbdfb0ff2\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:26:13-37
-42            android:multiprocess="true" />
-42-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fc88086e0f1ca94ce4ca6c7fbdfb0ff2\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:27:13-40
-43    </application>
-44
-45</manifest>
+11-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:5:5-22:19
+12        android:name="com.example.pagarbook.Views.ApplicationClass.PagarBookApplication"
+12-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:11:9-68
+13        android:allowBackup="true"
+13-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:6:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.2.0] C:\Users\Tejee\.gradle\caches\transforms-2\files-2.1\00c501b898d72f42af0deb07886ca3a0\core-1.2.0\AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:icon="@drawable/logo"
+16-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:7:9-38
+17        android:label="@string/app_name"
+17-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@drawable/logo"
+18-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:9:9-43
+19        android:supportsRtl="true"
+19-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.PagarBook" >
+21-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:12:9-47
+22        <activity android:name="com.example.pagarbook.Views.Activity.AccountLogin" />
+22-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:13:9-74
+22-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:13:19-62
+23        <activity android:name="com.example.pagarbook.Views.Activity.LanguageSelect" />
+23-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:14:9-67
+23-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:14:19-64
+24        <activity android:name="com.example.pagarbook.Views.Activity.SplashScreen" >
+24-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:15:9-21:20
+24-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:15:19-62
+25            <intent-filter>
+25-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:17:17-69
+26-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:19:17-77
+28-->D:\GitHub\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <service
+32-->[androidx.room:room-runtime:2.1.0] C:\Users\Tejee\.gradle\caches\transforms-2\files-2.1\bf920e10596ab8b1974d25b628e15780\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+33            android:name="androidx.room.MultiInstanceInvalidationService"
+33-->[androidx.room:room-runtime:2.1.0] C:\Users\Tejee\.gradle\caches\transforms-2\files-2.1\bf920e10596ab8b1974d25b628e15780\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+34            android:exported="false" />
+34-->[androidx.room:room-runtime:2.1.0] C:\Users\Tejee\.gradle\caches\transforms-2\files-2.1\bf920e10596ab8b1974d25b628e15780\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+35
+36        <provider
+36-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\Tejee\.gradle\caches\transforms-2\files-2.1\fc88086e0f1ca94ce4ca6c7fbdfb0ff2\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:23:9-27:43
+37            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\Tejee\.gradle\caches\transforms-2\files-2.1\fc88086e0f1ca94ce4ca6c7fbdfb0ff2\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:24:13-79
+38            android:authorities="com.masai.mvvmapplication.lifecycle-process"
+38-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\Tejee\.gradle\caches\transforms-2\files-2.1\fc88086e0f1ca94ce4ca6c7fbdfb0ff2\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:25:13-69
+39            android:exported="false"
+39-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\Tejee\.gradle\caches\transforms-2\files-2.1\fc88086e0f1ca94ce4ca6c7fbdfb0ff2\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:26:13-37
+40            android:multiprocess="true" />
+40-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\Tejee\.gradle\caches\transforms-2\files-2.1\fc88086e0f1ca94ce4ca6c7fbdfb0ff2\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:27:13-40
+41    </application>
+42
+43</manifest>
