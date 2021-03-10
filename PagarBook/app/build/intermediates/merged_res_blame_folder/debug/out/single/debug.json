@@ -4,60 +4,44 @@
         "source": "D:\\PagarBook\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_right_arrow.png.flat",
-        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_right_arrow.png"
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_back.xml.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_back.xml"
     },
     {
         "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_change_lang.xml.flat",
         "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\change_lang.xml"
     },
     {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_group_1.png.flat",
-        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_group_1.png"
-    },
-    {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_langauge_item.xml.flat",
-        "source": "D:\\PagarBook\\app\\src\\main\\res\\layout\\langauge_item.xml"
-    },
-    {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\PagarBook\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_calendar_day_thirty.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_calendar_day_thirty.png"
     },
     {
         "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "D:\\PagarBook\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_change_lang.png.flat",
-        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\change_lang.png"
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_langauge_item.xml.flat",
+        "source": "D:\\PagarBook\\app\\src\\main\\res\\layout\\langauge_item.xml"
     },
     {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_change_lang.png.flat",
-        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\change_lang.png"
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_group_5.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_group_5.png"
     },
     {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_change_lang.png.flat",
-        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\change_lang.png"
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_back.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_back.png"
     },
     {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_calendar_day_thirty.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_calendar_day_thirty.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_smartphone.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_smartphone.png"
     },
     {
         "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_group_1.png.flat",
         "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_group_1.png"
-    },
-    {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_account_login.xml.flat",
-        "source": "D:\\PagarBook\\app\\src\\main\\res\\layout\\activity_account_login.xml"
-    },
-    {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -72,8 +56,16 @@
         "source": "D:\\PagarBook\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\PagarBook\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_calendar_daily_page_on_day_31.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_calendar_daily_page_on_day_31.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_staffs_months_and_time.xml.flat",
+        "source": "D:\\PagarBook\\app\\src\\main\\res\\layout\\activity_staffs_months_and_time.xml"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_smartphone.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_smartphone.png"
     },
     {
         "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_group_1.png.flat",
@@ -84,12 +76,20 @@
         "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\PagarBook\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_group_5.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_group_5.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_calendar_day_thirty.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_calendar_day_thirty.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_calendar_daily_page_on_day_31.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_calendar_daily_page_on_day_31.png"
     },
     {
         "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -100,6 +100,10 @@
         "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_group_1.png"
     },
     {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_smartphone.xml.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_smartphone.xml"
+    },
+    {
         "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_right_arrow.png.flat",
         "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_right_arrow.png"
     },
@@ -108,8 +112,16 @@
         "source": "D:\\PagarBook\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\PagarBook\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_group_5.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_group_5.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_group_continue.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_group_continue.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_calendar_daily_page_on_day_31.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_calendar_daily_page_on_day_31.png"
     },
     {
         "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
@@ -120,8 +132,24 @@
         "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_right_arrow.png"
     },
     {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_group_continue.xml.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_group_continue.xml"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_back.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_back.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calender_border.xml.flat",
+        "source": "D:\\PagarBook\\app\\src\\main\\res\\drawable\\calender_border.xml"
+    },
+    {
         "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_right_arrow.xml.flat",
         "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_right_arrow.xml"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_back.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_back.png"
     },
     {
         "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_group_1.png.flat",
@@ -136,6 +164,174 @@
         "source": "D:\\PagarBook\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_details.xml.flat",
+        "source": "D:\\PagarBook\\app\\src\\main\\res\\layout\\activity_details.xml"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_calendar_day_thirty.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_calendar_day_thirty.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_group_continue.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_group_continue.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_right_arrow.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_right_arrow.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_smartphone.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_smartphone.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_right_arrow.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_right_arrow.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_smartphone.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_smartphone.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_group_5.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_group_5.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_right_arrow.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_right_arrow.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_calendar_daily_page_on_day_31.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_calendar_daily_page_on_day_31.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_group_5.xml.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_group_5.xml"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_group_5.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_group_5.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\PagarBook\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_group_1.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_group_1.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_change_lang.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\change_lang.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_back.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_back.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_calendar_day_thirty.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_calendar_day_thirty.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_back.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_back.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_calendar_day_thirty.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_calendar_day_thirty.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_change_lang.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\change_lang.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_change_lang.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\change_lang.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_group_continue.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_group_continue.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_splash.png.flat",
+        "source": "D:\\PagarBook\\app\\src\\main\\res\\drawable\\ic_splash.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_account_login.xml.flat",
+        "source": "D:\\PagarBook\\app\\src\\main\\res\\layout\\activity_account_login.xml"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\PagarBook\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_calendar_daily_page_on_day_31.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_calendar_daily_page_on_day_31.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bluecontinuebt.xml.flat",
+        "source": "D:\\PagarBook\\app\\src\\main\\res\\drawable\\bluecontinuebt.xml"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_calendar_day_thirty.xml.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_calendar_day_thirty.xml"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\PagarBook\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_group_5.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_group_5.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_deatilstextview.xml.flat",
+        "source": "D:\\PagarBook\\app\\src\\main\\res\\drawable\\deatilstextview.xml"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\PagarBook\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_calendar_daily_page_on_day_31.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_calendar_daily_page_on_day_31.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_group_continue.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_group_continue.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_group_continue.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_group_continue.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_calendar_daily_page_on_day_31.xml.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_calendar_daily_page_on_day_31.xml"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_smartphone.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_smartphone.png"
+    },
+    {
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_smartphone.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_smartphone.png"
+    },
+    {
         "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_change_lang.png.flat",
         "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\change_lang.png"
     },
@@ -144,12 +340,8 @@
         "source": "D:\\PagarBook\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splashscreen.PNG.flat",
-        "source": "D:\\PagarBook\\app\\src\\main\\res\\drawable\\splashscreen.PNG"
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_back.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_back.png"
     },
     {
         "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_group_1.png.flat",
@@ -172,19 +364,19 @@
         "source": "D:\\PagarBook\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_right_arrow.png.flat",
-        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_right_arrow.png"
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_submit_o_t_p.xml.flat",
+        "source": "D:\\PagarBook\\app\\src\\main\\res\\layout\\activity_submit_o_t_p.xml"
     },
     {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_right_arrow.png.flat",
-        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_right_arrow.png"
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_change_lang.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\change_lang.png"
     },
     {
         "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_right_arrow.png.flat",
         "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_right_arrow.png"
     },
     {
-        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_change_lang.png.flat",
-        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\change_lang.png"
+        "merged": "D:\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_group_continue.png.flat",
+        "source": "D:\\PagarBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_group_continue.png"
     }
 ]

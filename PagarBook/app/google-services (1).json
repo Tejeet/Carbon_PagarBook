@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1074266829524",
+    "project_id": "pagarbook-91804",
+    "storage_bucket": "pagarbook-91804.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074266829524:android:e5a2f8cf9ce8119e234141",
+        "android_client_info": {
+          "package_name": "com.example.pagarbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074266829524-pk6t5urjvumgd1a7vqus7jtlg9jcu2ns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pagarbook",
+            "certificate_hash": "1f9da0d1dd3c6c5e0375dd8148e419012fd36f16"
+          }
+        },
+        {
+          "client_id": "1074266829524-7ec9g6ipvpn4oc5lata2je8oebrfq3dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMpjF4zIrulk-HuqxZ2LvfLqhz1z5X-Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074266829524-7ec9g6ipvpn4oc5lata2je8oebrfq3dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

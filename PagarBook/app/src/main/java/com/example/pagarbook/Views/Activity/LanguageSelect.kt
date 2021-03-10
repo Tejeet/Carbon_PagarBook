@@ -7,10 +7,11 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.example.pagarbook.Models.Language
 import com.example.pagarbook.R
 import com.example.pagarbook.Views.LanguageAdapter
+import com.example.pagarbook.Views.Listner.RadioButtonListner
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.langauge_item.*
 
-class LanguageSelect : AppCompatActivity() {
+class LanguageSelect : AppCompatActivity(),RadioButtonListner {
 
     var listLang= mutableListOf<Language>()
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,18 +28,22 @@ class LanguageSelect : AppCompatActivity() {
         listLang.add(Language("ଓଡ଼ିଆ"))
         listLang.add(Language("ಕನ್ನಡ"))
 
-        val adapter =LanguageAdapter(listLang)
+        val adapter =LanguageAdapter(listLang,this)
         recyclerViewLanguage.layoutManager=GridLayoutManager(this,2)
         recyclerViewLanguage.adapter=adapter
 
 //        if(LanguageIsSelect.){
-            BtContinueLang.setOnClickListener {
-                val intent=Intent(this@LanguageSelect, AccountLogin::class.java)
-                startActivity(intent)
-            }
+
     }
 
     override fun onBackPressed() {
         finish()
+    }
+
+    override fun ButtonPress(language: Language) {
+        BtContinueLang.setOnClickListener {
+            val intent=Intent(this@LanguageSelect, AccountLogin::class.java)
+            startActivity(intent)
+        }
     }
 }
