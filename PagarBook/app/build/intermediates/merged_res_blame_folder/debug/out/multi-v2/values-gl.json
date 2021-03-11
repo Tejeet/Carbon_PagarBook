@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PagarBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl\\values-gl.xml",
+            "outputFile": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl\\values-gl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\ec4372ba672e5d560f54d5ea2589ed3d\\appcompat-1.2.0\\res\\values-gl\\values-gl.xml",

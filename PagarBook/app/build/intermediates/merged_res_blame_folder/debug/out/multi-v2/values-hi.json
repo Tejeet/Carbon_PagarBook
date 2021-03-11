@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PagarBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hi\\values-hi.xml",
+            "outputFile": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hi\\values-hi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\954f4b65f49091827a94f6fcc6f4b976\\jetified-play-services-base-17.1.0\\res\\values-hi\\values.xml",

@@ -1753,6 +1753,7 @@ id BtContinueLang
 id BtContinueLogin
 id BtContinueOTP
 id BtContinueStaffMonths
+id BtOpeningBalance
 id CTRL
 id EtOtpSubmit
 id EtPhoneNumber
@@ -1762,6 +1763,7 @@ id IvSplashScreen
 id LanguageIsSelect
 id META
 id NO_DEBUG
+id OpeningBackArrow
 id RB30days
 id RB31days
 id SHIFT
@@ -2072,6 +2074,7 @@ id progress_circular
 id progress_horizontal
 id prosessText
 id radio
+id radioGroup
 id ratio
 id rectangles
 id recyclerViewLanguage
@@ -2166,7 +2169,9 @@ id textView10
 id textView11
 id textView12
 id textView13
+id textView14
 id textView15
+id textView16
 id textView2
 id textView3
 id textView4
@@ -2280,6 +2285,7 @@ layout abc_tooltip
 layout activity_account_login
 layout activity_details
 layout activity_main
+layout activity_opening_balance
 layout activity_splash_screen
 layout activity_staffs_months_and_time
 layout activity_submit_o_t_p
@@ -2399,6 +2405,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string advance
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -2500,6 +2507,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pending
 string please_select_a_language_that_you_can_read_and_understand_comfortably
 string project_id
 string search_menu_title

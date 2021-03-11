@@ -21,6 +21,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.PagarBook" >
+        <activity android:name="com.example.pagarbook.Views.Activity.OpeningBalance" />
         <activity android:name="com.example.pagarbook.Views.Activity.StaffsMonthsAndTimeActivity" />
         <activity android:name="com.example.pagarbook.Views.Activity.DetailsActivity" />
         <activity android:name="com.example.pagarbook.Views.Activity.SubmitOTP" />

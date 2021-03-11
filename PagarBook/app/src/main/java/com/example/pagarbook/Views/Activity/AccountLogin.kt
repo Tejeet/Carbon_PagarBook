@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat.startActivity
 import com.example.pagarbook.R
 import com.google.android.gms.tasks.Task
+import com.google.firebase.FirebaseApp
 import com.google.firebase.FirebaseException
 import com.google.firebase.FirebaseTooManyRequestsException
 import com.google.firebase.auth.*
@@ -32,6 +33,7 @@ class AccountLogin : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_account_login)
+        FirebaseApp.initializeApp(this)
         auth = Firebase.auth
         BtContinueLogin.setOnClickListener {
             if (EtPhoneNumber.text.toString().isEmpty()||EtPhoneNumber.text.toString().length >10 ||
