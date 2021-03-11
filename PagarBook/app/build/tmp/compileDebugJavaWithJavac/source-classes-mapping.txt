@@ -1,2 +1,13 @@
+com/example/pagarbook/DataNConstants/ConstantsNData.java
+ com.example.pagarbook.DataNConstants.ConstantsNData
 com/example/pagarbook/BuildConfig.java
  com.example.pagarbook.BuildConfig
+com/example/pagarbook/ModelsRoomDB/PagarBookDatabase_Impl.java
+ com.example.pagarbook.ModelsRoomDB.PagarBookDatabase_Impl
+ com.example.pagarbook.ModelsRoomDB.PagarBookDatabase_Impl$1
+com/example/pagarbook/ModelsRoomDB/PagarBookModelDao_Impl.java
+ com.example.pagarbook.ModelsRoomDB.PagarBookModelDao_Impl
+ com.example.pagarbook.ModelsRoomDB.PagarBookModelDao_Impl$1
+ com.example.pagarbook.ModelsRoomDB.PagarBookModelDao_Impl$2
+ com.example.pagarbook.ModelsRoomDB.PagarBookModelDao_Impl$3
+ com.example.pagarbook.ModelsRoomDB.PagarBookModelDao_Impl$4

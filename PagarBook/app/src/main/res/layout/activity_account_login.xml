@@ -22,9 +22,9 @@
         android:id="@+id/tvAcountLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Account Login"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
+        android:text="Account Login"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -59,9 +59,6 @@
         app:layout_constraintTop_toBottomOf="@+id/tvAcountInfo" />
 
     <TextView
-        android:textSize="20sp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -69,9 +66,12 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
         android:text="@string/_91"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:drawableLeftCompat="@drawable/ic_smartphone"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:drawableLeftCompat="@drawable/ic_smartphone" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
 
@@ -79,10 +79,10 @@
         android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:backgroundTint="@color/purple_700"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        android:backgroundTint="@color/purple_700"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 

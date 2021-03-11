@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.pagarbook"
+    package="com.masai.mvvmapplication"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -12,21 +12,26 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
+        android:name="com.example.pagarbook.Views.ApplicationClass.PagarBookApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.PagarBook" >
-        <activity android:name="com.example.pagarbook.Views.Activity.OpeningBalance" />
-        <activity android:name="com.example.pagarbook.Views.Activity.StaffsMonthsAndTimeActivity" />
-        <activity android:name="com.example.pagarbook.Views.Activity.DetailsActivity" />
-        <activity android:name="com.example.pagarbook.Views.Activity.SubmitOTP" />
+        android:theme="@style/Theme.PagarBook"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.pagarbook.Views.Activity.DashboardActivity" />
+        <activity android:name="com.example.pagarbook.Views.Activity.HelpActivity" />
+        <activity android:name="com.example.pagarbook.Views.Activity.WebActivity" />
         <activity android:name="com.example.pagarbook.Views.Activity.AccountLogin" />
         <activity android:name="com.example.pagarbook.Views.Activity.LanguageSelect" />
+        <activity android:name="com.example.pagarbook.Views.Activity.DetailsActivity" />
+        <activity android:name="com.example.pagarbook.Views.Activity.OpeningBalance" />
+        <activity android:name="com.example.pagarbook.Views.Activity.SubmitOTP" />
+        <activity android:name="com.example.pagarbook.Views.Activity.StaffsMonthsAndTimeActivity" />
         <activity android:name="com.example.pagarbook.Views.Activity.SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,9 +61,6 @@
                 android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
-        <service
-            android:name="androidx.room.MultiInstanceInvalidationService"
-            android:exported="false" />
 
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
@@ -110,7 +112,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.pagarbook.firebaseinitprovider"
+            android:authorities="com.masai.mvvmapplication.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -124,9 +126,13 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false" />
+
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.example.pagarbook.lifecycle-process"
+            android:authorities="com.masai.mvvmapplication.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
     </application>
