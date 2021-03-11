@@ -4,23 +4,24 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 public class ConstantsNData {
-
-    public static final String SERVER = "https://avdhutpcb.com/";
-    public static final String END_HOST = "https://avdhutpcb.com/api/";
-    public static final String AUTH_KEY = "8c8614d50a762f512d44c4ca668f4c1dbba1011a0643de895701baad9d88c64c";
-    public static final String PRODUCT_PHOTO_PATH = SERVER + "/products/";
-    public static final String INSTANTQUOTEPCB_PHOTO_PATH = SERVER + "/instantquotepcbs/";
+;
 
 
     SharedPreferences sharedpreferences;
-    private static final String MY_PREF = "AVDHUTPCBWorkPlace";
+    private static final String MY_PREF = "PagarBook";
     private static final String USER_ID_KEY = "useridkey";
     private static final String LOGIN_STATUS_KEY = "LoginStatus";
+
     private static final String USER_NAME_KEY = "usernamekey";
     private static final String USER_EMAIL_KEY = "useremailkey";
     private static final String USER_PASS_KEY = "userpasskey";
     private static final String USER_MOBILE_KEY = "mobileKey";
     private static final String USER_ADDRESS_KEY = "address";
+
+    private static final String BUSINESS_NAME = "businessNamw";
+    private static final String KEY_NO_OF_STAFF = "noofStaff";
+
+
     private static final String USER_PROFILE_PATH_KEY = "profilepathkey";
     private static final String USER_FIREBASE_TOKEN = "firebaseToeknKey";
     private static final String USER_FIREBASE_UPDATE_STATUS_KEY = "firebaseUpdateStausKey";
@@ -163,6 +164,15 @@ public class ConstantsNData {
         editor.putString(USER_NAME_KEY, pname);
         editor.putString(USER_MOBILE_KEY, pMobile);
         editor.putString(USER_PASS_KEY, ppass);
+        editor.commit();
+    }
+
+    public void saveBusiness(Context context, String name, String businessName, String noofstaff) {
+        sharedpreferences = context.getSharedPreferences(MY_PREF, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedpreferences.edit();
+        editor.putString(USER_NAME_KEY, name);
+        editor.putString(BUSINESS_NAME, businessName);
+        editor.putString(KEY_NO_OF_STAFF, noofstaff);
         editor.commit();
     }
 
