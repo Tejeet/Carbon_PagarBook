@@ -5,8 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.pagarbook.DataNConstants.ConstantsNData
 import com.example.pagarbook.R
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.ktx.Firebase
+
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
