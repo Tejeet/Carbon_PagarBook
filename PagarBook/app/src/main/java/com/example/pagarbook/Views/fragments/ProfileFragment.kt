@@ -30,5 +30,10 @@ class ProfileFragment : Fragment() {
 
 
         }
+
+        view.tvProfileYourName.text = cn.getUserName(context)
+        view.tvProfileBusinessName.text = cn.getBussinessName(context)
+        view.tvProfileNumberOfStaff.text = cn.getStaffs(context)
+
     }
 }
