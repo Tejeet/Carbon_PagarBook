@@ -2,27 +2,28 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pagarbook">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".Views.ApplicationClass.PagarBookApplication"
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
-        android:name=".Views.ApplicationClass.PagarBookApplication"
-        android:theme="@style/Theme.PagarBook">
-        <activity android:name=".Views.Activity.DashboardActivity"/>
-        <activity android:name=".Views.Activity.HelpActivity"/>
-        <activity android:name=".Views.Activity.WebActivity"/>
-        <activity android:name=".Views.Activity.AccountLogin"/>
+        android:theme="@style/Theme.PagarBook"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Views.Activity.AddStaffSalaryActivity"/>
+        <activity android:name=".Views.Activity.DashboardActivity" />
+        <activity android:name=".Views.Activity.HelpActivity" />
+        <activity android:name=".Views.Activity.WebActivity" />
+        <activity android:name=".Views.Activity.AccountLogin" />
         <activity android:name=".Views.Activity.LanguageSelect" />
-        <activity android:name=".Views.Activity.DetailsActivity"/>
-        <activity android:name=".Views.Activity.OpeningBalance"/>
-        <activity android:name=".Views.Activity.AddStaffActivity"/>
-        <activity android:name=".Views.Activity.SubmitOTP"/>
-        <activity android:name=".Views.Activity.StaffsMonthsAndTimeActivity"/>
+        <activity android:name=".Views.Activity.DetailsActivity" />
+        <activity android:name=".Views.Activity.OpeningBalance" />
+        <activity android:name=".Views.Activity.AddStaffActivity" />
+        <activity android:name=".Views.Activity.SubmitOTP" />
+        <activity android:name=".Views.Activity.StaffsMonthsAndTimeActivity" />
         <activity android:name=".Views.Activity.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
