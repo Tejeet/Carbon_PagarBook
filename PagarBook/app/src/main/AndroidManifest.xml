@@ -13,7 +13,10 @@
         android:usesCleartextTraffic="true"
         android:name=".Views.ApplicationClass.PagarBookApplication"
         android:theme="@style/Theme.PagarBook">
-        <activity android:name=".Views.Activity.AccountLogin"></activity>
+        <activity android:name=".Views.Activity.DashboardActivity"/>
+        <activity android:name=".Views.Activity.HelpActivity"/>
+        <activity android:name=".Views.Activity.WebActivity"/>
+        <activity android:name=".Views.Activity.AccountLogin"/>
         <activity android:name=".Views.Activity.LanguageSelect" />
         <activity android:name=".Views.Activity.DetailsActivity"/>
         <activity android:name=".Views.Activity.OpeningBalance"/>

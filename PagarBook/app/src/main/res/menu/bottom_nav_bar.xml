@@ -3,19 +3,19 @@
 
     <item
         android:id="@+id/bottomMenuStaff"
-        android:title="@string/staff"
+        android:title="Staff"
         android:icon="@drawable/ic_nav_staff"/>
     <item
         android:id="@+id/bottomMenuAttendance"
-        android:title="@string/attendance"
+        android:title="Attendance"
         android:icon="@drawable/ic_attendance"/>
     <item
         android:id="@+id/bottomMenuPremium"
-        android:title="@string/premium"
+        android:title="Premium"
         android:icon="@drawable/ic_nav_premium"/>
     <item
         android:id="@+id/bottomMenuProfile"
-        android:title="@string/profile"
+        android:title="Profile"
         android:icon="@drawable/ic_nav_profile"/>
 
 

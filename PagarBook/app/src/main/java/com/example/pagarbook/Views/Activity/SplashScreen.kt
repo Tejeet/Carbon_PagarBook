@@ -26,7 +26,7 @@ class SplashScreen : AppCompatActivity() {
 
         if (cn.getLoginStatus(this) == "1"){
 
-            intent = Intent(this@SplashScreen, DetailsActivity::class.java)
+            intent = Intent(this@SplashScreen, DashboardActivity::class.java)
             startActivity(intent)
 
         }
