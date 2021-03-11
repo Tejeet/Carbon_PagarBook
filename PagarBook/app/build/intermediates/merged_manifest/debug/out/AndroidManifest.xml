@@ -23,6 +23,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.PagarBook"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.pagarbook.Views.Activity.DashboardActivity" />
+        <activity android:name="com.example.pagarbook.Views.Activity.HelpActivity" />
+        <activity android:name="com.example.pagarbook.Views.Activity.WebActivity" />
         <activity android:name="com.example.pagarbook.Views.Activity.AccountLogin" />
         <activity android:name="com.example.pagarbook.Views.Activity.LanguageSelect" />
         <activity android:name="com.example.pagarbook.Views.Activity.DetailsActivity" />
