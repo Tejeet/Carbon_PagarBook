@@ -17,11 +17,11 @@ class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
-CoroutineScope(Dispatchers.Default).launch {
-    sleep(5*1000);
-    intent= Intent(this@SplashScreen, LanguageSelect::class.java)
-    startActivity(intent)
-}
+        CoroutineScope(Dispatchers.Default).launch {
+            sleep(2 * 1000);
+            intent = Intent(this@SplashScreen, LanguageSelect::class.java)
+            startActivity(intent)
+        }
     }
 
 }

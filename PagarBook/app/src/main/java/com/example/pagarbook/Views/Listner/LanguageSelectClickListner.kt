@@ -4,6 +4,6 @@ import com.example.pagarbook.Models.Language
 import java.text.FieldPosition
 
 
-interface RadioButtonListner {
-    fun ButtonPress(language: Language)
+interface LanguageSelectClickListner {
+    fun onLanguageSelect(language: Language)
 }
