@@ -1479,6 +1479,7 @@ drawable pagar_video_one
 drawable pagar_video_two
 drawable pagarbook_premium
 drawable rectangle_box_for_pay_now
+drawable rounded_border_all_item_staff_details
 drawable rounded_rectangle_for_whatsapp_help
 drawable selfie_and_location_img
 drawable splashscreen
@@ -1708,6 +1709,7 @@ id llProfile
 id ll_business
 id ll_divider
 id ll_help
+id ll_item_staff
 id ll_prev_next
 id ll_salary_slip
 id ll_toolbar
@@ -1771,6 +1773,7 @@ id radio
 id radioAdvance
 id radioGroup
 id radioPending
+id rcvStaffView
 id recyclerViewLanguage
 id right
 id right_icon
@@ -1883,6 +1886,7 @@ id tvAcountInfo
 id tvAcountLogin
 id tvBulkPayment
 id tvLanguage
+id tvMonthlyStaff
 id tvPaymentLog
 id tvPersonalInfo
 id tvProfileBusinessName
@@ -1896,10 +1900,14 @@ id tvProfilePhoneNumber
 id tvProfileSecurityPassword
 id tvProfileYourName
 id tv_add_from_contact
+id tv_amount
+id tv_attendance
 id tv_balance
 id tv_business_name
 id tv_date
+id tv_employee_name
 id tv_help
+id tv_payment_type
 id tv_search
 id tv_staff_count
 id tv_subtitle
@@ -2012,6 +2020,7 @@ layout fragment_attendance
 layout fragment_premium
 layout fragment_profile
 layout fragment_staff
+layout item_staff
 layout langauge_item
 layout layout_menu_help
 layout mtrl_alert_dialog

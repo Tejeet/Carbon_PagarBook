@@ -1,5 +1,6 @@
 package com.example.pagarbook.Repository
 
+import androidx.lifecycle.LiveData
 import com.example.pagarbook.Models.OTPResponseDTOModel
 import com.example.pagarbook.ModelsRoomDB.PagarBookModelDao
 import com.example.pagarbook.ModelsRoomDB.StaffEntity
@@ -7,6 +8,7 @@ import com.tejeet.mvvmcoroutine.remote.APIService
 import com.tejeet.mvvmcoroutine.remote.RetrofitGenerator
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 
 
@@ -25,6 +27,12 @@ class PagarBookRepository(val pagarBookModelDao: PagarBookModelDao) {
         CoroutineScope(Dispatchers.IO).launch {
             pagarBookModelDao.addStaff(staffEntity)
         }
+    }
+
+    fun getSTAFF() : LiveData<List<StaffEntity>>{
+
+        return pagarBookModelDao.getStaffs()
+
     }
 
 }

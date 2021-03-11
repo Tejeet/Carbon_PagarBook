@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.langauge_item.*
 
 class LanguageSelect : AppCompatActivity(),LanguageSelectClickListner {
 
-    var listLang= mutableListOf<Language>()
+    var listLang = mutableListOf<Language>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
