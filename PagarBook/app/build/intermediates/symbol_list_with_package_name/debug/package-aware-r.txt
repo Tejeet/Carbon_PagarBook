@@ -1493,7 +1493,6 @@ id BtContinueLang
 id BtContinueLogin
 id BtContinueOTP
 id BtContinueStaffMonths
-id BtOpeningBalance
 id CTRL
 id EtOtpSubmit
 id EtPhoneNumber
@@ -1502,7 +1501,6 @@ id FUNCTION
 id IvSplashScreen
 id LanguageIsSelect
 id META
-id OpeningBackArrow
 id RB30days
 id RB31days
 id SHIFT
@@ -1586,7 +1584,11 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btn_continue
+id btnBackAddStaff
+id btnBackAddStaffSalary
+id btnContinueAddStaffSalary
+id btnContinueOpeningBalance
+id btn_continue_add_staff
 id buttonPanel
 id cancel_button
 id cardView
@@ -1636,6 +1638,9 @@ id enterAlways
 id enterAlwaysCollapsed
 id etBuinessName
 id etNoStaffs
+id et_opening_balance
+id et_staff_amount
+id et_staff_cycle_add_staff_salary
 id et_staff_name
 id et_staff_number
 id exitUntilCollapsed
@@ -1698,6 +1703,7 @@ id line3
 id listMode
 id list_item
 id llLanguage
+id llOpeningBalance
 id llProfile
 id ll_business
 id ll_divider
@@ -1762,7 +1768,9 @@ id progress_circular
 id progress_horizontal
 id prosessText
 id radio
+id radioAdvance
 id radioGroup
+id radioPending
 id recyclerViewLanguage
 id right
 id right_icon
@@ -1856,13 +1864,13 @@ id textinput_counter
 id textinput_error
 id textinput_helper_text
 id til_amount
+id til_staff_amount
 id til_staff_name
 id til_staff_number
 id time
 id title
 id titleDividerNoCustom
 id title_template
-id toolbar
 id top
 id topPanel
 id touch_outside
@@ -1971,6 +1979,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_account_login
 layout activity_add_staff
+layout activity_add_staff_salary
 layout activity_dashboard
 layout activity_details
 layout activity_help
