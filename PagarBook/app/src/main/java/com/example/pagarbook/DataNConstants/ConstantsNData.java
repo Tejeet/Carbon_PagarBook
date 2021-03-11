@@ -19,6 +19,7 @@ public class ConstantsNData {
     private static final String USER_ADDRESS_KEY = "address";
 
     private static final String BUSINESS_NAME = "businessNamw";
+    private static final String BUSINESS_TYPE = "businessType";
     private static final String KEY_NO_OF_STAFF = "noofStaff";
 
 
@@ -57,6 +58,22 @@ public class ConstantsNData {
     public String getLoginStatus(Context context){
         sharedpreferences = context.getSharedPreferences(MY_PREF, Context.MODE_PRIVATE);
         return sharedpreferences.getString(LOGIN_STATUS_KEY, "0");
+    }
+
+    public String getBussinessName(Context context){
+        sharedpreferences = context.getSharedPreferences(MY_PREF, Context.MODE_PRIVATE);
+        return sharedpreferences.getString(BUSINESS_NAME, "0");
+    }
+
+    public String getBusinessType(Context context){
+        sharedpreferences = context.getSharedPreferences(MY_PREF, Context.MODE_PRIVATE);
+        return sharedpreferences.getString(BUSINESS_TYPE, "0");
+    }
+
+    public String getStaffs(Context context){
+        sharedpreferences = context.getSharedPreferences(MY_PREF, Context.MODE_PRIVATE);
+        return sharedpreferences.getString(KEY_NO_OF_STAFF, "0");
+
     }
 
     public void setLoginStatus(Context context, String loginStatus) {

@@ -20,6 +20,7 @@
         <activity android:name=".Views.Activity.LanguageSelect" />
         <activity android:name=".Views.Activity.DetailsActivity"/>
         <activity android:name=".Views.Activity.OpeningBalance"/>
+        <activity android:name=".Views.Activity.AddStaffActivity"/>
         <activity android:name=".Views.Activity.SubmitOTP"/>
         <activity android:name=".Views.Activity.StaffsMonthsAndTimeActivity"/>
         <activity android:name=".Views.Activity.SplashScreen">
