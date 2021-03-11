@@ -8,5 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="nationsBlue">#7EB2FE</color>
-    <color name="light_blue">#0052CA</color>
+    <color name="Gray">#757575</color>
+    <color name="dart_blue">#0166fe</color>
 </resources>
