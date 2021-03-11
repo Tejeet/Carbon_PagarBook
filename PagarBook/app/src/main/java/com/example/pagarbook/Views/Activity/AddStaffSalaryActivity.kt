@@ -24,8 +24,8 @@ class AddStaffSalaryActivity : AppCompatActivity() {
             if (et_staff_amount.text.toString().isNotEmpty() ){
 
                 val intent = Intent(this,OpeningBalance::class.java)
-                intent.putExtra("staffAmount",et_staff_amount.text.toString())
 
+                intent.putExtra("staffAmount",et_staff_amount.text.toString())
                 intent.putExtra("staffName",staffName)
                 intent.putExtra("staffNumber",staffNumber)
 

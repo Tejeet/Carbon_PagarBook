@@ -1,5 +1,6 @@
 package com.example.pagarbook.ViewModel
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import com.example.pagarbook.Models.OTPResponseDTOModel
 import com.example.pagarbook.ModelsRoomDB.StaffEntity
@@ -15,4 +16,7 @@ class PagarBookViewModel(val repo : PagarBookRepository) : ViewModel() {
         repo.addSTAFF(data)
     }
 
+    fun GETStaffs() : LiveData<List<StaffEntity>> {
+        return repo.getSTAFF()
+    }
 }
