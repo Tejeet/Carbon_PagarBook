@@ -3,16 +3,35 @@
     <style name="text_input_for_add_staff_name">
         <item name="android:textColorHint">#5a5a5a</item>
         <item name="boxBackgroundColor">#f2f2f2</item>
+        <item name="endIconMode">clear_text</item>
         <item name="errorIconDrawable">@drawable/ic_payment_error</item>
         <item name="errorIconTint">@color/design_default_color_error</item>
         <item name="errorTextColor">@color/black</item>
         <item name="hintTextColor">@color/light_blue</item>
+        <item name="errorTextAppearance">@style/text_appearence_hint</item>
+        <item name="hintTextAppearance">@style/text_appearence_hint</item>
+        <item name="shapeAppearanceSmallComponent">@style/small_component</item>
     </style>
 
     <style name="text_appearence">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/black</item>
+
     </style>
+
+    <style name="small_component">
+        <item name="cornerFamily">@null</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+    <style name="text_appearence_hint">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="prefix_text_apperence">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
 
     <style name="text_input_for_add_phone_number">
     <item name="android:textColorHint">#5a5a5a</item>
