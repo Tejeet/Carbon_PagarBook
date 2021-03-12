@@ -4,20 +4,24 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_business_type.xml"
     },
     {
-        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\anim_exit_second.xml.flat",
-        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\anim\\exit_second.xml"
-    },
-    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_nav_profile.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\ic_nav_profile.xml"
     },
     {
-        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splashscreen.PNG.flat",
-        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\splashscreen.PNG"
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\anim_exit_second.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\anim\\exit_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_attendance.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\item_attendance.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_solid.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\bg_white_solid.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_expand.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\ic_arrow_expand.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_attendence_summaty_background.xml.flat",
@@ -34,6 +38,10 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_continuebuttonlanguage.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\continuebuttonlanguage.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_editname_corner_round.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\editname_corner_round.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_group_1.xml.flat",
@@ -54,6 +62,10 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calender_border.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\calender_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_border_grey_corner_4dp.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\bg_border_grey_corner_4dp.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_search.xml.flat",
@@ -84,16 +96,24 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\ic_group_continue.xml"
     },
     {
-        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_default_present.xml.flat",
-        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_default_present.xml"
-    },
-    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_menu_help.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\layout_menu_help.xml"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_default_present.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_default_present.xml"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_buiness_name.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\activity_edit_buiness_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_button_corner.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\blue_button_corner.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_bar.xml.flat",
@@ -108,12 +128,12 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\item_staff.xml"
     },
     {
-        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_previous_active.xml.flat",
-        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_previous_active.xml"
-    },
-    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_costamimsed_reports_img.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\costamimsed_reports_img.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_previous_active.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_previous_active.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -126,6 +146,10 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_contacts.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_group_6.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\ic_group_6.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
@@ -302,6 +326,10 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_user_name.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\activity_edit_user_name.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\PagarBookApp\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",

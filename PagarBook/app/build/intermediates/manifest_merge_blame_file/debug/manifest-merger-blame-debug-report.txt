@@ -13,255 +13,100 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:5:5-67
 11-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:5:22-64
-12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:24:5-79
-12-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:24:22-76
-13
-14    <application
-14-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:7:5-34:19
-15        android:name="com.example.pagarbook.Views.ApplicationClass.PagarBookApplication"
-15-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:8:9-68
-16        android:allowBackup="true"
-16-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:9:9-35
-17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.2.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\e21326f0dd364e3789d6aec8bce6657d\core-1.2.0\AndroidManifest.xml:24:18-86
-18        android:debuggable="true"
-19        android:icon="@drawable/logo"
-19-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:10:9-38
-20        android:label="@string/app_name"
-20-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:11:9-41
-21        android:roundIcon="@drawable/logo"
-21-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:12:9-43
-22        android:supportsRtl="true"
-22-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:13:9-35
-23        android:testOnly="true"
-24        android:theme="@style/Theme.PagarBook"
-24-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:14:9-47
-25        android:usesCleartextTraffic="true" >
-25-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:15:9-44
-26        <activity android:name="com.example.pagarbook.Views.Activity.AddStaffSalaryActivity" />
-26-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:16:9-74
-26-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:16:19-72
-27        <activity android:name="com.example.pagarbook.Views.Activity.DashboardActivity" />
-27-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:17:9-70
-27-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:17:19-67
-28        <activity android:name="com.example.pagarbook.Views.Activity.HelpActivity" />
-28-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:18:9-65
-28-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:18:19-62
-29        <activity android:name="com.example.pagarbook.Views.Activity.WebActivity" />
-29-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:19:9-64
-29-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:19:19-61
-30        <activity android:name="com.example.pagarbook.Views.Activity.AccountLogin" />
-30-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:20:9-65
-30-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:20:19-62
-31        <activity android:name="com.example.pagarbook.Views.Activity.LanguageSelect" />
-31-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:21:9-67
-31-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:21:19-64
-32        <activity android:name="com.example.pagarbook.Views.Activity.DetailsActivity" />
-32-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:22:9-68
-32-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:22:19-65
-33        <activity android:name="com.example.pagarbook.Views.Activity.OpeningBalance" />
-33-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:23:9-67
-33-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:23:19-64
-34        <activity android:name="com.example.pagarbook.Views.Activity.AddStaffActivity" />
-34-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:24:9-69
-34-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:24:19-66
-35        <activity android:name="com.example.pagarbook.Views.Activity.SubmitOTP" />
-35-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:25:9-62
-35-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:25:19-59
-36        <activity android:name="com.example.pagarbook.Views.Activity.StaffsMonthsAndTimeActivity" />
-36-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:26:9-80
-36-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:26:19-77
-37        <activity android:name="com.example.pagarbook.Views.Activity.SplashScreen" >
-37-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:27:9-33:20
-37-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:27:19-62
-38            <intent-filter>
-38-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:28:13-32:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:29:17-69
-39-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:29:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:31:17-77
-41-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:31:27-74
-42            </intent-filter>
-43        </activity>
-44
-45        <service
-45-->[com.google.firebase:firebase-auth-ktx:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\99d1c377e116dcbedbd2a4d1127365d8\jetified-firebase-auth-ktx-20.0.3\AndroidManifest.xml:8:9-14:19
-46            android:name="com.google.firebase.components.ComponentDiscoveryService"
-46-->[com.google.firebase:firebase-auth-ktx:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\99d1c377e116dcbedbd2a4d1127365d8\jetified-firebase-auth-ktx-20.0.3\AndroidManifest.xml:9:13-84
-47            android:directBootAware="true"
-47-->[com.google.firebase:firebase-common:19.5.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\5651dac7d679b4bfba48faa2364e474d\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
-48            android:exported="false" >
-48-->[com.google.firebase:firebase-auth-ktx:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\99d1c377e116dcbedbd2a4d1127365d8\jetified-firebase-auth-ktx-20.0.3\AndroidManifest.xml:10:13-37
-49            <meta-data
-49-->[com.google.firebase:firebase-auth-ktx:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\99d1c377e116dcbedbd2a4d1127365d8\jetified-firebase-auth-ktx-20.0.3\AndroidManifest.xml:11:13-13:85
-50                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
-50-->[com.google.firebase:firebase-auth-ktx:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\99d1c377e116dcbedbd2a4d1127365d8\jetified-firebase-auth-ktx-20.0.3\AndroidManifest.xml:12:17-116
-51                android:value="com.google.firebase.components.ComponentRegistrar" />
-51-->[com.google.firebase:firebase-auth-ktx:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\99d1c377e116dcbedbd2a4d1127365d8\jetified-firebase-auth-ktx-20.0.3\AndroidManifest.xml:13:17-82
-52            <meta-data
-52-->[com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\5c12c0f232fdb5a2798f4ed7a8894d81\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:15:13-17:85
-53                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
-53-->[com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\5c12c0f232fdb5a2798f4ed7a8894d81\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:16:17-113
-54                android:value="com.google.firebase.components.ComponentRegistrar" />
-54-->[com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\5c12c0f232fdb5a2798f4ed7a8894d81\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:17:17-82
-55            <meta-data
-55-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:77:13-79:85
-56                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-56-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:78:17-109
-57                android:value="com.google.firebase.components.ComponentRegistrar" />
-57-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:79:17-82
-58            <!--
-59                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
-60                clients to use it as well, by defining this registrar in their own core/common library.
-61            -->
-62            <meta-data
-62-->[com.google.firebase:firebase-common:19.5.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\5651dac7d679b4bfba48faa2364e474d\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
-63                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
-63-->[com.google.firebase:firebase-common:19.5.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\5651dac7d679b4bfba48faa2364e474d\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
-64                android:value="com.google.firebase.components.ComponentRegistrar" />
-64-->[com.google.firebase:firebase-common:19.5.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\5651dac7d679b4bfba48faa2364e474d\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
-65        </service>
-66
-67        <activity
-67-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:27:9-44:20
-68            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-68-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:28:13-80
-69            android:excludeFromRecents="true"
-69-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:29:13-46
-70            android:exported="true"
-70-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:30:13-36
-71            android:launchMode="singleTask"
-71-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:31:13-44
-72            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-72-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:32:13-72
-73            <intent-filter>
-73-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:33:13-43:29
-74                <action android:name="android.intent.action.VIEW" />
-74-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:17-69
-74-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:25-66
-75
-76                <category android:name="android.intent.category.DEFAULT" />
-76-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
-76-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
-77                <category android:name="android.intent.category.BROWSABLE" />
-77-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:17-78
-77-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:27-75
-78
-79                <data
-79-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:39:17-42:51
-80                    android:host="firebase.auth"
-80-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:40:21-49
-81                    android:path="/"
-81-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:41:21-37
-82                    android:scheme="genericidp" />
-82-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:42:21-48
-83            </intent-filter>
-84        </activity>
-85        <activity
-85-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:45:9-62:20
-86            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-86-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:46:13-79
-87            android:excludeFromRecents="true"
-87-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:47:13-46
-88            android:exported="true"
-88-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:48:13-36
-89            android:launchMode="singleTask"
-89-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:49:13-44
-90            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-90-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:50:13-72
-91            <intent-filter>
-91-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:51:13-61:29
-92                <action android:name="android.intent.action.VIEW" />
-92-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:17-69
-92-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:25-66
-93
-94                <category android:name="android.intent.category.DEFAULT" />
-94-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
-94-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
-95                <category android:name="android.intent.category.BROWSABLE" />
-95-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:17-78
-95-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:27-75
-96
-97                <data
-97-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:39:17-42:51
-98                    android:host="firebase.auth"
-98-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:40:21-49
-99                    android:path="/"
-99-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:41:21-37
-100                    android:scheme="recaptcha" />
-100-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:42:21-48
-101            </intent-filter>
-102        </activity>
-103
-104        <service
-104-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:64:9-73:19
-105            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-105-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:65:13-101
-106            android:enabled="true"
-106-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:66:13-35
-107            android:exported="false" >
-107-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:67:13-37
-108            <intent-filter>
-108-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:68:13-72:29
-109                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-109-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:69:17-89
-109-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:69:25-86
-110
-111                <category android:name="android.intent.category.DEFAULT" />
-111-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
-111-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\fb0e5f819373805d7cac7b5fef51da7f\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
-112            </intent-filter>
-113        </service>
-114
-115        <provider
-115-->[com.google.firebase:firebase-common:19.5.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\5651dac7d679b4bfba48faa2364e474d\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
-116            android:name="com.google.firebase.provider.FirebaseInitProvider"
-116-->[com.google.firebase:firebase-common:19.5.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\5651dac7d679b4bfba48faa2364e474d\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
-117            android:authorities="com.masai.mvvmapplication.firebaseinitprovider"
-117-->[com.google.firebase:firebase-common:19.5.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\5651dac7d679b4bfba48faa2364e474d\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
-118            android:directBootAware="true"
-118-->[com.google.firebase:firebase-common:19.5.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\5651dac7d679b4bfba48faa2364e474d\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
-119            android:exported="false"
-119-->[com.google.firebase:firebase-common:19.5.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\5651dac7d679b4bfba48faa2364e474d\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
-120            android:initOrder="100" />
-120-->[com.google.firebase:firebase-common:19.5.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\5651dac7d679b4bfba48faa2364e474d\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
-121
-122        <activity
-122-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\954f4b65f49091827a94f6fcc6f4b976\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-123            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-123-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\954f4b65f49091827a94f6fcc6f4b976\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-124            android:exported="false"
-124-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\954f4b65f49091827a94f6fcc6f4b976\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-125            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-125-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\954f4b65f49091827a94f6fcc6f4b976\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-126
-127        <meta-data
-127-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\c78fcd71c265eb1e13c663822d4bbe5d\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
-128            android:name="com.google.android.gms.version"
-128-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\c78fcd71c265eb1e13c663822d4bbe5d\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
-129            android:value="@integer/google_play_services_version" />
-129-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\c78fcd71c265eb1e13c663822d4bbe5d\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
-130
-131        <service
-131-->[androidx.room:room-runtime:2.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\1280f201740cf8874014e00f8de63189\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
-132            android:name="androidx.room.MultiInstanceInvalidationService"
-132-->[androidx.room:room-runtime:2.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\1280f201740cf8874014e00f8de63189\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
-133            android:exported="false" />
-133-->[androidx.room:room-runtime:2.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\1280f201740cf8874014e00f8de63189\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
-134
-135        <provider
-135-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\37c5b6d50968a0bb01b4da29baeb566a\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:23:9-27:43
-136            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-136-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\37c5b6d50968a0bb01b4da29baeb566a\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:24:13-79
-137            android:authorities="com.masai.mvvmapplication.lifecycle-process"
-137-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\37c5b6d50968a0bb01b4da29baeb566a\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:25:13-69
-138            android:exported="false"
-138-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\37c5b6d50968a0bb01b4da29baeb566a\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:26:13-37
-139            android:multiprocess="true" />
-139-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\37c5b6d50968a0bb01b4da29baeb566a\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:27:13-40
-140    </application>
-141
-142</manifest>
+12
+13    <application
+13-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:7:5-36:19
+14        android:name="com.example.pagarbook.Views.ApplicationClass.PagarBookApplication"
+14-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:8:9-68
+15        android:allowBackup="true"
+15-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.2.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\e21326f0dd364e3789d6aec8bce6657d\core-1.2.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@drawable/logo"
+18-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:10:9-38
+19        android:label="@string/app_name"
+19-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:11:9-41
+20        android:roundIcon="@drawable/logo"
+20-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:12:9-43
+21        android:supportsRtl="true"
+21-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.PagarBook"
+23-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:14:9-47
+24        android:usesCleartextTraffic="true" >
+24-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:15:9-44
+25        <activity android:name="com.example.pagarbook.Views.Activity.AddStaffSalaryActivity" />
+25-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:16:9-74
+25-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:16:19-72
+26        <activity android:name="com.example.pagarbook.Views.Activity.EditBusinessNameActivity" />
+26-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:17:9-76
+26-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:17:19-74
+27        <activity android:name="com.example.pagarbook.Views.Activity.EditUserNameActivity" />
+27-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:18:9-72
+27-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:18:19-70
+28        <activity android:name="com.example.pagarbook.Views.Activity.DashboardActivity" />
+28-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:19:9-70
+28-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:19:19-67
+29        <activity android:name="com.example.pagarbook.Views.Activity.HelpActivity" />
+29-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:20:9-65
+29-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:20:19-62
+30        <activity android:name="com.example.pagarbook.Views.Activity.WebActivity" />
+30-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:21:9-64
+30-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:21:19-61
+31        <activity android:name="com.example.pagarbook.Views.Activity.AccountLogin" />
+31-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:22:9-65
+31-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:22:19-62
+32        <activity android:name="com.example.pagarbook.Views.Activity.LanguageSelect" />
+32-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:23:9-67
+32-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:23:19-64
+33        <activity android:name="com.example.pagarbook.Views.Activity.DetailsActivity" />
+33-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:24:9-68
+33-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:24:19-65
+34        <activity android:name="com.example.pagarbook.Views.Activity.OpeningBalance" />
+34-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:25:9-67
+34-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:25:19-64
+35        <activity android:name="com.example.pagarbook.Views.Activity.AddStaffActivity" />
+35-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:26:9-69
+35-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:26:19-66
+36        <activity android:name="com.example.pagarbook.Views.Activity.SubmitOTP" />
+36-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:27:9-62
+36-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:27:19-59
+37        <activity android:name="com.example.pagarbook.Views.Activity.StaffsMonthsAndTimeActivity" />
+37-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:28:9-80
+37-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:28:19-77
+38        <activity android:name="com.example.pagarbook.Views.Activity.SplashScreen" >
+38-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:29:9-35:20
+38-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:29:19-62
+39            <intent-filter>
+39-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:30:13-34:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:31:17-69
+40-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:31:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:33:17-77
+42-->C:\Users\manishkumar\Desktop\PagarBookApp\Carbon_PagarBook\PagarBook\app\src\main\AndroidManifest.xml:33:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <service
+46-->[androidx.room:room-runtime:2.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\1280f201740cf8874014e00f8de63189\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+47            android:name="androidx.room.MultiInstanceInvalidationService"
+47-->[androidx.room:room-runtime:2.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\1280f201740cf8874014e00f8de63189\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+48            android:exported="false" />
+48-->[androidx.room:room-runtime:2.1.0] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\1280f201740cf8874014e00f8de63189\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+49
+50        <provider
+50-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\37c5b6d50968a0bb01b4da29baeb566a\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:23:9-27:43
+51            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\37c5b6d50968a0bb01b4da29baeb566a\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:24:13-79
+52            android:authorities="com.masai.mvvmapplication.lifecycle-process"
+52-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\37c5b6d50968a0bb01b4da29baeb566a\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:25:13-69
+53            android:exported="false"
+53-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\37c5b6d50968a0bb01b4da29baeb566a\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:26:13-37
+54            android:multiprocess="true" />
+54-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\manishkumar\.gradle\caches\transforms-2\files-2.1\37c5b6d50968a0bb01b4da29baeb566a\jetified-lifecycle-process-2.2.0-alpha01\AndroidManifest.xml:27:13-40
+55    </application>
+56
+57</manifest>

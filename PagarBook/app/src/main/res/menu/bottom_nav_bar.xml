@@ -3,11 +3,11 @@
 
     <item
         android:id="@+id/bottomMenuStaff"
-        android:title="Staff"
+        android:title="staff"
         android:icon="@drawable/ic_nav_staff"/>
     <item
         android:id="@+id/bottomMenuAttendance"
-        android:title="Attendance"
+        android:title="@string/attendance"
         android:icon="@drawable/ic_attendance"/>
     <item
         android:id="@+id/bottomMenuPremium"
