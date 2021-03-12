@@ -32,12 +32,12 @@
         "source": "D:\\GitHub\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_pending_approval.xml"
     },
     {
-        "merged": "D:\\GitHub\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_businesses_down_chevron.xml.flat",
-        "source": "D:\\GitHub\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_businesses_down_chevron.xml"
-    },
-    {
         "merged": "D:\\GitHub\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_attendance.xml.flat",
         "source": "D:\\GitHub\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\ic_attendance.xml"
+    },
+    {
+        "merged": "D:\\GitHub\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_businesses_down_chevron.xml.flat",
+        "source": "D:\\GitHub\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_businesses_down_chevron.xml"
     },
     {
         "merged": "D:\\GitHub\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_right_colored.xml.flat",
