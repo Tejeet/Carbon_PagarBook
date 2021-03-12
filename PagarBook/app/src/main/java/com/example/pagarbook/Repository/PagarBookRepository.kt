@@ -2,6 +2,7 @@ package com.example.pagarbook.Repository
 
 import androidx.lifecycle.LiveData
 import com.example.pagarbook.Models.OTPResponseDTOModel
+import com.example.pagarbook.ModelsRoomDB.AttendanceEntity
 import com.example.pagarbook.ModelsRoomDB.PagarBookModelDao
 import com.example.pagarbook.ModelsRoomDB.StaffEntity
 import com.tejeet.mvvmcoroutine.remote.APIService
@@ -33,6 +34,29 @@ class PagarBookRepository(val pagarBookModelDao: PagarBookModelDao) {
 
         return pagarBookModelDao.getStaffs()
 
+    }
+
+    fun getSTAFFDetailedSALARY() : LiveData<List<StaffEntity>>{
+
+        return pagarBookModelDao.getStaffDetailedSalary()
+
+    }
+
+
+    fun getTOTALPending() : LiveData<String>{
+
+        return pagarBookModelDao.getTotalPending()
+    }
+
+    fun getTOTALSALARYbyUSERID(uid: String) : LiveData<String>{
+        return pagarBookModelDao.getTotalSalarybyUserID(uid)
+    }
+
+    fun addAttendance(attendanceEntity: AttendanceEntity){
+
+        CoroutineScope(Dispatchers.IO).launch {
+            pagarBookModelDao.addAttendance(attendanceEntity)
+        }
     }
 
 }

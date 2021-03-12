@@ -66,19 +66,27 @@ class StaffFragment : Fragment() {
             startActivity(Intent(context, HelpActivity::class.java))
         }
 
+        viewModel.GETTOTALPending().observe(viewLifecycleOwner, Observer{
+            val data = it
+            view.tv_balance.text = "₹ $data"
+        })
+
+
+
         setRecyclerView()
 
-
-        viewModel.GETStaffs().observe(viewLifecycleOwner,{
+        viewModel.GETstaffdetailedSalary().observe(viewLifecycleOwner, Observer{
 
             var list = it
-            staffListData.clear()
-            staffListData.addAll(list)
-            mAdapter.updateStaff(staffListData)
-            mAdapter.notifyDataSetChanged()
 
-            Log.d(TAG, "Found Employees ${list.size}")
-            tvMonthlyStaff.text = "Monthly Staff (${list.size})"
+                staffListData.clear()
+                staffListData.addAll(list)
+                mAdapter.updateStaff(staffListData)
+                mAdapter.notifyDataSetChanged()
+
+                Log.d(TAG, "Found Employees ${list.size}")
+                tvMonthlyStaff.text = "Monthly Staff (${list.size})"
+
 
         })
 

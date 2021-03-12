@@ -4,8 +4,6 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 public class ConstantsNData {
-;
-
 
     SharedPreferences sharedpreferences;
     private static final String MY_PREF = "PagarBook";

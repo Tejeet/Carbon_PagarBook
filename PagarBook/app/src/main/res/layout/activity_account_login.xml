@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
-        android:text="Account Login"
+        android:text="@string/account_login"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -40,7 +40,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
-        android:text="@string/please_select_a_language_that_you_can_read_and_understand_comfortably"
+        android:text="@string/select_language_helper"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,7 +53,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:text="MOBILE NUMBER"
+        android:text="@string/staff_phone"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvAcountInfo" />
@@ -90,27 +90,26 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter Your 10 digit mobile number"
+        android:text="@string/enter_mobile_number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.702"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/EtPhoneNumber"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/BtContinueLogin"
+    <Button
+        android:id="@+id/btn_continue_add_staff"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="30dp"
-        android:background="@drawable/ic_group_continue"
-        android:clickable="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/blue_button_corner"
+        android:text="@string/txt_continue"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
     <!--        android:visibility="gone"-->
 
@@ -119,18 +118,18 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="@+id/BtContinueLogin"
-        app:layout_constraintEnd_toEndOf="@+id/BtContinueLogin"
-        app:layout_constraintStart_toStartOf="@+id/BtContinueLogin"
-        app:layout_constraintTop_toTopOf="@+id/BtContinueLogin" />
+        android:indeterminateTint="@color/white"
+        android:progressTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/btn_continue_add_staff"
+        app:layout_constraintEnd_toEndOf="@+id/btn_continue_add_staff"
+        app:layout_constraintStart_toStartOf="@+id/btn_continue_add_staff"
+        app:layout_constraintTop_toTopOf="@+id/btn_continue_add_staff" />
 
     <TextView
         android:id="@+id/prosessText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EtPhoneNumber" />
+        app:layout_constraintTop_toTopOf="@+id/btn_continue_add_staff" />
 </androidx.constraintlayout.widget.ConstraintLayout>

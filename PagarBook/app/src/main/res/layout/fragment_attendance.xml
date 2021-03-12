@@ -51,7 +51,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:drawablePadding="8dp"
-                            android:text="Attendance"
+                            android:text="@string/attendance"
                             android:textColor="@color/white"
                             android:textSize="20sp" />
 
@@ -257,7 +257,7 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="Present"
+                                                android:text="@string/present"
                                                 android:textColor="#5a5a5a" />
 
                                             <TextView
@@ -282,7 +282,7 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="Present"
+                                                android:text="@string/absent"
                                                 android:textColor="#5a5a5a" />
 
                                             <TextView
@@ -307,7 +307,7 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="Present"
+                                                android:text="@string/half_day"
                                                 android:textColor="#5a5a5a" />
 
                                             <TextView
@@ -344,7 +344,7 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="Present"
+                                                android:text="@string/paid_holiday"
                                                 android:textColor="#5a5a5a" />
 
                                             <TextView
@@ -369,7 +369,7 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="Present"
+                                                android:text="@string/hours_deducted"
                                                 android:textColor="#5a5a5a" />
 
                                             <TextView
@@ -394,7 +394,7 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="Present"
+                                                android:text="@string/overtime"
                                                 android:textColor="#5a5a5a" />
 
                                             <TextView
@@ -405,6 +405,7 @@
                                         </LinearLayout>
                                     </LinearLayout>
                                     <androidx.recyclerview.widget.RecyclerView
+                                        android:id="@+id/rcvAttendanceView"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent" />
                                 </LinearLayout>

@@ -8,9 +8,8 @@ import androidx.room.PrimaryKey
 class StaffEntity(
     @ColumnInfo(name = "name") var name: String,
     @ColumnInfo(name = "mobile") var mobile: String,
-    @ColumnInfo(name = "salary") var salary: String,
+    @ColumnInfo(name = "salary") var salary: Int,
     @ColumnInfo(name = "salaryCycle") var salaryCycle: String ) {
-
 
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
