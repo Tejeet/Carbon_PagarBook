@@ -28,6 +28,8 @@ public class ConstantsNData {
     private static final String USER_NEW_STATUS = "newuserStatus";
     private static final String PRODUCT_REFRESH_STATUS = "productRefreshStatus";
 
+    private static final String LANGUAGE_KEY = "languageKey";
+
 
     public String getProductRefreshStatus(Context context){
         sharedpreferences = context.getSharedPreferences(MY_PREF, Context.MODE_PRIVATE);
@@ -40,6 +42,23 @@ public class ConstantsNData {
         editor.putString(PRODUCT_REFRESH_STATUS, prstatus);
         editor.commit();
     }
+
+
+
+    public String getLanguageKey(Context context){
+        sharedpreferences = context.getSharedPreferences(MY_PREF, Context.MODE_PRIVATE);
+        return sharedpreferences.getString(LANGUAGE_KEY, "0");
+    }
+
+    public void setLanguageKey(Context context, String prstatus) {
+        sharedpreferences = context.getSharedPreferences(MY_PREF, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedpreferences.edit();
+        editor.putString(LANGUAGE_KEY, prstatus);
+        editor.commit();
+    }
+
+
+
 
     public String getNewUserStatus(Context context){
         sharedpreferences = context.getSharedPreferences(MY_PREF, Context.MODE_PRIVATE);
@@ -135,6 +154,15 @@ public class ConstantsNData {
         sharedpreferences = context.getSharedPreferences(MY_PREF, Context.MODE_PRIVATE);
         return sharedpreferences.getString(USER_EMAIL_KEY, "0");
     }
+
+
+    public void setUserMobileKey(Context context, String pass) {
+        sharedpreferences = context.getSharedPreferences(MY_PREF, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedpreferences.edit();
+        editor.putString(USER_MOBILE_KEY, pass);
+        editor.commit();
+    }
+
 
     public String getUserMobile(Context context){
         sharedpreferences = context.getSharedPreferences(MY_PREF, Context.MODE_PRIVATE);

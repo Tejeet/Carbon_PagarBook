@@ -6,6 +6,7 @@ import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProviders
+import com.example.pagarbook.DataNConstants.ConstantsNData
 import com.example.pagarbook.Models.OTPResponseDTOModel
 import com.example.pagarbook.R
 import com.example.pagarbook.Repository.PagarBookRepository
@@ -27,6 +28,8 @@ class AccountLogin : AppCompatActivity() {
 
     lateinit var resp : OTPResponseDTOModel
 
+    var cn = ConstantsNData()
+
     var gOTP = ""
 
 
@@ -34,6 +37,8 @@ class AccountLogin : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_account_login)
 
+
+        cn.setUserMobileKey(this,EtPhoneNumber.text.toString())
 
         val appObj  = application as PagarBookApplication
         val reposotory : PagarBookRepository = appObj.repository

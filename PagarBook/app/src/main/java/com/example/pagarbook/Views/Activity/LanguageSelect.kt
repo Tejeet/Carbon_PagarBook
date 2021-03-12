@@ -5,6 +5,7 @@ import android.content.res.Configuration
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
+import com.example.pagarbook.DataNConstants.ConstantsNData
 import com.example.pagarbook.Models.Language
 import com.example.pagarbook.R
 import com.example.pagarbook.Views.LanguageAdapter
@@ -15,6 +16,7 @@ import java.util.*
 class LanguageSelect : AppCompatActivity(),LanguageSelectClickListner {
 
 
+    var cn = ConstantsNData()
     lateinit var locale: Locale
     private var currentLanguage = "en"
 
@@ -51,6 +53,7 @@ class LanguageSelect : AppCompatActivity(),LanguageSelectClickListner {
     }
 
     override fun onLanguageSelect(language: Language) {
+        cn.setLanguageKey(this,language.language)
 
         when (language.languageCode) {
             "HINDi" -> setLocale("hi")
@@ -71,7 +74,7 @@ class LanguageSelect : AppCompatActivity(),LanguageSelectClickListner {
     }
 
     private fun setLocale(localeName: String) {
-        if (localeName != currentLanguage) {
+
             locale = Locale(localeName)
             val res = resources
             val dm = res.displayMetrics
@@ -79,6 +82,5 @@ class LanguageSelect : AppCompatActivity(),LanguageSelectClickListner {
             conf.locale = locale
             res.updateConfiguration(conf, dm)
 
-        }
     }
 }

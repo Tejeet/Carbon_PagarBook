@@ -12,6 +12,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.pagarbook.DataNConstants.ConstantsNData
 import com.example.pagarbook.ModelsRoomDB.StaffEntity
 import com.example.pagarbook.R
 import com.example.pagarbook.Repository.PagarBookRepository
@@ -27,6 +28,8 @@ import kotlinx.android.synthetic.main.fragment_staff.view.*
 
 class StaffFragment : Fragment() {
 
+
+    var cn = ConstantsNData()
 
     private var staffListData : MutableList<StaffEntity> = mutableListOf<StaffEntity>()
 
@@ -49,6 +52,7 @@ class StaffFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
+        tv_business_name.text = cn.getBussinessName(context)
 
         val appObj  = activity!!.application as PagarBookApplication
 

@@ -60,9 +60,12 @@ class ProfileFragment : Fragment() {
 
         }
 
+        view.tvProfileLanguage.text = cn.getLanguageKey(context)
+        view.tvProfilePhoneNumber.text = cn.getUserMobile(context)
         view.tvProfileYourName.text = cn.getUserName(context)
         view.tvProfileBusinessName.text = cn.getBussinessName(context)
         view.tvProfileNumberOfStaff.text = cn.getStaffs(context)
+
 
         view.tvEditYourName.setOnClickListener {
             val intent=Intent(context, EditUserNameActivity::class.java)
