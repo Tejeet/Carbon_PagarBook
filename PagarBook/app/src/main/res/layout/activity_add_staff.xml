@@ -154,7 +154,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="24dp"
-        android:background="@color/light_blue"
+        android:background="@drawable/blue_button_corner"
         android:textColor="@color/white"
         android:text="Continue" />
 
