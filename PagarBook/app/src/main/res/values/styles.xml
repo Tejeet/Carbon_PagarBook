@@ -42,4 +42,9 @@
     <item name="hintTextAppearance">@style/text_appearence</item>
     <item name="hintTextColor">@color/light_blue</item>
     </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/dart_blue</item>
+        <item name="android:textSize">12sp</item>
+    </style>
 </resources>
