@@ -1737,6 +1737,7 @@ id radioGroup
 id radioPending
 id rcvAttendanceView
 id rcvStaffView
+id recyclerViewBottomsheet
 id recyclerViewLanguage
 id right
 id right_icon
@@ -1819,6 +1820,7 @@ id textView14
 id textView15
 id textView16
 id textView17
+id textView18
 id textView2
 id textView3
 id textView4
@@ -1851,6 +1853,7 @@ id transition_transform
 id tvAcountInfo
 id tvAcountLogin
 id tvBulkPayment
+id tvChangeLanguage
 id tvEditBussinessName
 id tvEditYourName
 id tvLanguage
@@ -1967,6 +1970,7 @@ layout activity_splash_screen
 layout activity_staffs_months_and_time
 layout activity_submit_o_t_p
 layout activity_web
+layout bottom_sheet_language
 layout bottom_sheet_layout
 layout custom_dialog
 layout design_bottom_navigation_item
