@@ -45,9 +45,11 @@ class AccountLogin : AppCompatActivity() {
 
         btn_continue_add_staff.setOnClickListener {
 
-            if (EtPhoneNumber.text.toString().isEmpty() || EtPhoneNumber.text.toString().length >10 ) {
+            if (EtPhoneNumber.text.toString()
+                    .isEmpty() || EtPhoneNumber.text.toString().length > 10
+            ) {
 
-                EtPhoneNumber.error=("Invalid Phone Number")
+                EtPhoneNumber.error = ("Invalid Phone Number")
             } else {
 
                 progressBar.visibility = View.VISIBLE
@@ -63,7 +65,7 @@ class AccountLogin : AppCompatActivity() {
 
                     Log.d(TAG, "Server side Response is $gOTP")
 
-                    if (resp.success == 1){
+                    if (resp.success == 1) {
 
                         Log.d(TAG, "Sending OTP to next page $gOTP")
                         var intent = Intent(this@AccountLogin, SubmitOTP::class.java)
