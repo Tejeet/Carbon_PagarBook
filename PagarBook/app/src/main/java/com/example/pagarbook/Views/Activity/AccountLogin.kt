@@ -43,14 +43,16 @@ class AccountLogin : AppCompatActivity() {
         viewModel = ViewModelProviders.of(this, viewModelFactory).get(PagarBookViewModel::class.java)
 
 
-        BtContinueLogin.setOnClickListener {
-            if (EtPhoneNumber.text.toString().isEmpty()||EtPhoneNumber.text.toString().length >10 ||
-                EtPhoneNumber.text.toString().length < 10 ) {
+        btn_continue_add_staff.setOnClickListener {
+
+            if (EtPhoneNumber.text.toString().isEmpty() || EtPhoneNumber.text.toString().length >10 ) {
+
                 EtPhoneNumber.error=("Invalid Phone Number")
             } else {
 
                 progressBar.visibility = View.VISIBLE
-                BtContinueLogin.setBackgroundResource(R.drawable.bluecontinuebt)
+
+                btn_continue_add_staff.setBackgroundResource(R.drawable.bluecontinuebt)
 
 
                 CoroutineScope(Dispatchers.IO).launch {
