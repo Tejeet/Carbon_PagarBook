@@ -48,7 +48,7 @@ class OpeningBalance : AppCompatActivity() {
             intent.putExtra("staffNumber",staffNumber)
             intent.putExtra("staffAmount",staffAmount)
 
-            val staff = StaffEntity(staffName.toString(), staffNumber.toString(), staffAmount.toString(), et_opening_balance.text.toString())
+            val staff = StaffEntity(staffName.toString(), staffNumber.toString(), staffAmount.toString().toInt(), et_opening_balance.text.toString())
 
             CoroutineScope(Dispatchers.IO).launch {
                 viewModel.ADDstaff(staff)
