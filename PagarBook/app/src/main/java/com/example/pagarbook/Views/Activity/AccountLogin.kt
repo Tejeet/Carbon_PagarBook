@@ -43,7 +43,7 @@ class AccountLogin : AppCompatActivity() {
         viewModel = ViewModelProviders.of(this, viewModelFactory).get(PagarBookViewModel::class.java)
 
 
-        btn_continue_add_staff.setOnClickListener {
+        BtContinueLogin.setOnClickListener {
 
             if (EtPhoneNumber.text.toString().isEmpty() || EtPhoneNumber.text.toString().length >10 ) {
 
@@ -52,7 +52,7 @@ class AccountLogin : AppCompatActivity() {
 
                 progressBar.visibility = View.VISIBLE
 
-                btn_continue_add_staff.setBackgroundResource(R.drawable.bluecontinuebt)
+                BtContinueLogin.setBackgroundResource(R.drawable.bluecontinuebt)
 
 
                 CoroutineScope(Dispatchers.IO).launch {
