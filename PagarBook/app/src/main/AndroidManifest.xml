@@ -26,7 +26,8 @@
         <activity android:name=".Views.Activity.AddStaffActivity" />
         <activity android:name=".Views.Activity.SubmitOTP" />
         <activity android:name=".Views.Activity.StaffsMonthsAndTimeActivity" />
-        <activity android:name=".Views.Activity.SplashScreen">
+        <activity android:name=".Views.Activity.SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

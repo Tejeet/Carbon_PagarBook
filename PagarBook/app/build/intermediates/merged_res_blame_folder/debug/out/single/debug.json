@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_attendance.xml.flat",
-        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\fragment_attendance.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_support.xml.flat",
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_attendance.xml.flat",
+        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\fragment_attendance.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_staff_salary.xml.flat",
@@ -44,20 +44,20 @@
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\item_staff.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_editname_corner_round.xml.flat",
-        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\editname_corner_round.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_nav_staff.xml.flat",
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\ic_nav_staff.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_langauge_item.xml.flat",
-        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\langauge_item.xml"
+        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_editname_corner_round.xml.flat",
+        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\editname_corner_round.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_langauge_item.xml.flat",
+        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\langauge_item.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_phone_number.xml.flat",
@@ -112,20 +112,20 @@
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_arrow_downward.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_pagar_video_one.png.flat",
-        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\pagar_video_one.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_pagar_video_one.png.flat",
+        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\pagar_video_one.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_menu_settings.xml.flat",
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_menu_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\anim_enter_second.xml.flat",
@@ -164,6 +164,10 @@
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_search.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_language.xml.flat",
+        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\bottom_sheet_language.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_logout.xml.flat",
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_logout.xml"
     },
@@ -172,12 +176,12 @@
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\fragment_staff.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_auto_backup.xml.flat",
-        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_auto_backup.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calendar_daily_page_on_day_31.xml.flat",
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\ic_calendar_daily_page_on_day_31.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_auto_backup.xml.flat",
+        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_auto_backup.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bluecontinuebt.xml.flat",
@@ -200,12 +204,12 @@
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_nav_premium.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_layout.xml.flat",
-        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\bottom_sheet_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pagarbook_premium.png.flat",
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\pagarbook_premium.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_layout.xml.flat",
+        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\bottom_sheet_layout.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo.png.flat",
@@ -224,12 +228,12 @@
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\activity_staffs_months_and_time.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_group_5.xml.flat",
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\ic_group_5.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_annual_subsciption_img.png.flat",
@@ -272,12 +276,12 @@
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_language.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\fragment_profile.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_salary_slip.xml.flat",
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_salary_slip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_menu_help.xml.flat",
@@ -380,12 +384,12 @@
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\ic_group_6.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\anim_exit_first.xml.flat",
-        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\anim\\exit_first.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_group_1.xml.flat",
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable\\ic_group_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\anim_exit_first.xml.flat",
+        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\anim\\exit_first.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
@@ -412,11 +416,11 @@
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\activity_details.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_premium.xml.flat",
-        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\fragment_premium.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_default_present.xml.flat",
         "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\drawable-v24\\ic_default_present.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_premium.xml.flat",
+        "source": "C:\\Users\\Administrator\\Documents\\Carbon_PagarBook\\PagarBook\\app\\src\\main\\res\\layout\\fragment_premium.xml"
     }
 ]

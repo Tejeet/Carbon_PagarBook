@@ -17,7 +17,7 @@ class BottomSheetDialogForVideo():BottomSheetDialogFragment() {
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        fragmentView = inflater.inflate(R.layout.bottom_sheet_layout, container, false)
+        fragmentView = inflater.inflate(R.layout.bottom_sheet_language, container, false)
         return fragmentView
     }
 

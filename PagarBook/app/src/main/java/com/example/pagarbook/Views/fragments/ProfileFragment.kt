@@ -53,6 +53,10 @@ class ProfileFragment : Fragment() {
             startActivity(intent)
         }
 
+        val BottomSheetLanguage=BottomSheetLanguageFragment()
+        view.tvChangeLanguage.setOnClickListener {
+            BottomSheetLanguage.show(activity!!.supportFragmentManager,"BottomSheetObject")
+        }
     }
 
 
