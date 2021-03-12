@@ -12,15 +12,31 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.lang.Thread.sleep
+import java.util.*
 
 class SplashScreen : AppCompatActivity() {
 
+    lateinit var locale: Locale
+    private var localeName = "en"
 
     var cn = ConstantsNData()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
+
+        locale = Locale(localeName)
+        val res = resources
+        val dm = res.displayMetrics
+        val conf = res.configuration
+        conf.locale = locale
+        res.updateConfiguration(conf, dm)
+
+
+
+
+
+        sleep(1500)
 
         window.setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -34,6 +50,7 @@ class SplashScreen : AppCompatActivity() {
 
         }
         else{
+
 
             intent = Intent(this@SplashScreen, LanguageSelect::class.java)
             startActivity(intent)

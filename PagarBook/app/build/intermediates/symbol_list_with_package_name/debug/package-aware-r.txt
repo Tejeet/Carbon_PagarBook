@@ -1451,7 +1451,6 @@ id BOTTOM_END
 id BOTTOM_START
 id BtContinueBusinessDeatils
 id BtContinueLang
-id BtContinueLogin
 id BtContinueOTP
 id BtContinueStaffMonths
 id CTRL
@@ -1548,6 +1547,7 @@ id btnContinueOpeningBalance
 id btn_BusinessNameSave
 id btn_YourNameSave
 id btn_absent
+id btn_add_staff
 id btn_continue_add_staff
 id btn_half_day
 id btn_present
