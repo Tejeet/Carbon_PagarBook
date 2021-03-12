@@ -11,3 +11,7 @@ com/example/pagarbook/ModelsRoomDB/PagarBookModelDao_Impl.java
  com.example.pagarbook.ModelsRoomDB.PagarBookModelDao_Impl$2
  com.example.pagarbook.ModelsRoomDB.PagarBookModelDao_Impl$3
  com.example.pagarbook.ModelsRoomDB.PagarBookModelDao_Impl$4
+ com.example.pagarbook.ModelsRoomDB.PagarBookModelDao_Impl$5
+ com.example.pagarbook.ModelsRoomDB.PagarBookModelDao_Impl$6
+ com.example.pagarbook.ModelsRoomDB.PagarBookModelDao_Impl$7
+ com.example.pagarbook.ModelsRoomDB.PagarBookModelDao_Impl$8

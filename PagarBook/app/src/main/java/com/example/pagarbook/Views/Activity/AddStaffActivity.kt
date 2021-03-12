@@ -14,7 +14,7 @@ class AddStaffActivity : AppCompatActivity() {
         setContentView(R.layout.activity_add_staff)
 
 
-        btn_continue_add_staff.setOnClickListener {
+        BtContinueLogin.setOnClickListener {
 
             if (et_staff_name.text.toString().isNotEmpty() && et_staff_number.text.toString().isNotEmpty()){
 
