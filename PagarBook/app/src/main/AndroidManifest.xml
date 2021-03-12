@@ -13,8 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PagarBook"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Views.Activity.EditUserNameActivity"></activity>
-        <activity android:name=".Views.Activity.EditBusinessNameActivity"></activity>
+        <activity android:name=".Views.Activity.AddStaffSalaryActivity"/>
         <activity android:name=".Views.Activity.DashboardActivity" />
         <activity android:name=".Views.Activity.HelpActivity" />
         <activity android:name=".Views.Activity.WebActivity" />

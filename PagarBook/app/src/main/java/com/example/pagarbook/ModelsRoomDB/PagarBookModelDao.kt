@@ -9,7 +9,7 @@ interface PagarBookModelDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     fun addStaff(staffEntity: StaffEntity)
 
-    @Query(" SELECT * FROM staffDetails ORDER BY id DESC")
+    @Query("SELECT * FROM staffDetails")
     fun getStaffs() : LiveData<List<StaffEntity>>
 
     @Delete
@@ -17,5 +17,6 @@ interface PagarBookModelDao {
 
     @Update
     fun updateStaff(staffEntity: StaffEntity)
+
 
 }

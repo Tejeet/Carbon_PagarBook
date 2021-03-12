@@ -1,5 +1,6 @@
 package com.example.pagarbook.Views.Activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.pagarbook.R
@@ -13,10 +14,14 @@ class AddStaffActivity : AppCompatActivity() {
         setContentView(R.layout.activity_add_staff)
 
 
-        btn_continue.setOnClickListener {
+        btn_continue_add_staff.setOnClickListener {
 
-            if (!et_staff_name.text.toString().isEmpty() && !et_staff_number.text.toString().isEmpty() ){
+            if (et_staff_name.text.toString().isNotEmpty() && et_staff_number.text.toString().isNotEmpty()){
 
+                val intent = Intent(this,AddStaffSalaryActivity::class.java)
+                 intent.putExtra("staffName",et_staff_name.text.toString())
+                 intent.putExtra("staffNumber",et_staff_number.text.toString())
+                 startActivity(intent)
 
             }
         }
