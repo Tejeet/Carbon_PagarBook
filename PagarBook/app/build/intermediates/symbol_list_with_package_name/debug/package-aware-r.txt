@@ -1357,6 +1357,7 @@ drawable avd_show_password
 drawable bg_rounded_red
 drawable bg_solid_corner
 drawable bg_white_solid
+drawable blue_button_corner
 drawable bluecontinuebt
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1397,6 +1398,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable editname_corner_round
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_add_staff
@@ -1417,6 +1419,7 @@ drawable ic_default_present
 drawable ic_edit_black_24dp
 drawable ic_group_1
 drawable ic_group_5
+drawable ic_group_6
 drawable ic_group_continue
 drawable ic_hire_profile
 drawable ic_keyboard_arrow_left_black_24dp
@@ -1482,7 +1485,6 @@ drawable rectangle_box_for_pay_now
 drawable rounded_border_all_item_staff_details
 drawable rounded_rectangle_for_whatsapp_help
 drawable selfie_and_location_img
-drawable splashscreen
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1495,9 +1497,12 @@ id BtContinueLogin
 id BtContinueOTP
 id BtContinueStaffMonths
 id CTRL
+id EtEditBusinessName
+id EtEditStaffCount
 id EtOtpSubmit
 id EtPhoneNumber
 id EtYourName
+id EtYourNameEdit
 id FUNCTION
 id IvSplashScreen
 id LanguageIsSelect
@@ -1589,6 +1594,8 @@ id btnBackAddStaff
 id btnBackAddStaffSalary
 id btnContinueAddStaffSalary
 id btnContinueOpeningBalance
+id btn_BusinessNameSave
+id btn_YourNameSave
 id btn_continue_add_staff
 id buttonPanel
 id cancel_button
@@ -1681,6 +1688,7 @@ id ifRoom
 id image
 id imageView
 id imageView2
+id imageView3
 id img_search_back
 id img_search_helper
 id info
@@ -1840,8 +1848,10 @@ id text
 id text2
 id textEnd
 id textInputLayout
+id textInputLayout2
 id textInputLayout3
 id textInputLayout4
+id textInputLayout5
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -1853,6 +1863,7 @@ id textView13
 id textView14
 id textView15
 id textView16
+id textView17
 id textView2
 id textView3
 id textView4
@@ -1885,6 +1896,8 @@ id transition_transform
 id tvAcountInfo
 id tvAcountLogin
 id tvBulkPayment
+id tvEditBussinessName
+id tvEditYourName
 id tvLanguage
 id tvMonthlyStaff
 id tvPaymentLog
@@ -1990,6 +2003,8 @@ layout activity_add_staff
 layout activity_add_staff_salary
 layout activity_dashboard
 layout activity_details
+layout activity_edit_buiness_name
+layout activity_edit_user_name
 layout activity_help
 layout activity_main
 layout activity_opening_balance
@@ -2467,6 +2482,7 @@ style TestStyleWithThemeLineHeightAttribute
 style TestStyleWithoutLineHeight
 style TestThemeWithLineHeight
 style TestThemeWithLineHeightDisabled
+style TextAppearance_App_TextInputLayout
 style TextAppearance_AppCompat
 style TextAppearance_AppCompat_Body1
 style TextAppearance_AppCompat_Body2
