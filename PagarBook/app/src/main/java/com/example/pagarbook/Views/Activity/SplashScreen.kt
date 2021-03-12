@@ -24,14 +24,18 @@ class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
-
-        locale = Locale(localeName)
-        val res = resources
-        val dm = res.displayMetrics
-        val conf = res.configuration
-        conf.locale = locale
-        res.updateConfiguration(conf, dm)
-
+         localeName = cn.getLanguageKey(this)
+        when (localeName) {
+            "हिन्दी" -> setLocale("hi")
+            "ENGLISH"-> setLocale("en")
+            "ગુજરાતી" -> setLocale("gu")
+            "Hinglish" -> setLocale("en-rGB")
+            "मराठी" -> setLocale("mr")
+            "தமிழ்" -> setLocale("kn")
+            "বাঙালি" -> setLocale("ta")
+            "ଓଡ଼ିଆ" -> setLocale("or")
+            "ಕನ್ನಡ" -> setLocale("kn")
+        }
 
 
 
@@ -44,6 +48,8 @@ class SplashScreen : AppCompatActivity() {
         )
         Handler().postDelayed({
         if (cn.getLoginStatus(this) == "1"){
+
+
 
             intent = Intent(this@SplashScreen, DashboardActivity::class.java)
             startActivity(intent)
@@ -63,6 +69,17 @@ class SplashScreen : AppCompatActivity() {
 
 
 
+
+    }
+
+    private fun setLocale(localeName: String) {
+
+            locale = Locale(localeName)
+            val res = resources
+            val dm = res.displayMetrics
+            val conf = res.configuration
+            conf.locale = locale
+            res.updateConfiguration(conf, dm)
 
     }
 
