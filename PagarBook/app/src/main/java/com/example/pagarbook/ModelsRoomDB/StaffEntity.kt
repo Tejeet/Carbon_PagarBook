@@ -11,7 +11,6 @@ class StaffEntity(
     @ColumnInfo(name = "salary") var salary: Int,
     @ColumnInfo(name = "salaryCycle") var salaryCycle: String ) {
 
-
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
     var id: Int? = null
