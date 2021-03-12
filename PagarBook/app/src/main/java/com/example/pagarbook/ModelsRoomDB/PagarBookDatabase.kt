@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [StaffEntity::class, AttendanceEntity::class], version = 5)
+@Database(entities = [StaffEntity::class, AttendanceEntity::class], version = 6)
 abstract class PagarBookDatabase() : RoomDatabase() {
 
     abstract fun getPageBookDao() : PagarBookModelDao
