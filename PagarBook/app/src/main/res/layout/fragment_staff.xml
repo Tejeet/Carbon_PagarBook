@@ -85,7 +85,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:alpha="0.5"
-                    android:text="Total pending"
+                    android:text="@string/total_pending"
                     android:textColor="@color/black"
                     android:textSize="12sp" />
 
@@ -123,7 +123,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="4dp"
                     android:layout_marginRight="8dp"
-                    android:text="Report"
+                    android:text="@string/report"
                     android:textColor="@color/light_blue" />
 
                 <ImageView
@@ -170,7 +170,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="Paymant Log"
+                    android:text="@string/title_payment_log"
                     android:textColor="@color/light_blue"
                     android:textStyle="bold" />
 
@@ -182,7 +182,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="Bulk Payment"
+                    android:text="@string/title_bulk_payment"
                     android:textColor="@color/light_blue"
                     android:textStyle="bold" />
 
@@ -214,7 +214,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Add Staff"
+            android:text="@string/add_staff"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -225,7 +225,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Monthly Staff"
+        android:text="@string/monthly_staff"
         android:textColor="@color/black" />
 
     <androidx.recyclerview.widget.RecyclerView
