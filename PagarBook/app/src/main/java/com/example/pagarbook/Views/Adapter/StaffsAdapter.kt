@@ -27,7 +27,7 @@ class StaffsAdapter(var listStaff: List<StaffEntity>) : RecyclerView.Adapter<Sta
         Log.d(TAG, "In Data is  ${listStaff[position].name}")
 
         holder.mStaffName.text = listStaff[position].name
-        holder.mStaffPendingPayment.text =  "₹ ${listStaff[position].salary} "
+        holder.mStaffPendingPayment.text =  "₹ ${listStaff[position]?.salary} "
 
     }
 

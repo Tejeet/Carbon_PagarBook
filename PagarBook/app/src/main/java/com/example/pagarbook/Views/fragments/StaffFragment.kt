@@ -75,11 +75,10 @@ class StaffFragment : Fragment() {
 
         setRecyclerView()
 
-        viewModel.GETstaffdetailedSalary().observe(viewLifecycleOwner,{
+        viewModel.GETStaffs().observe(viewLifecycleOwner,{
 
             var list = it
 
-            if (list.size > 1){
                 staffListData.clear()
                 staffListData.addAll(list)
                 mAdapter.updateStaff(staffListData)
@@ -87,7 +86,7 @@ class StaffFragment : Fragment() {
 
                 Log.d(TAG, "Found Employees ${list.size}")
                 tvMonthlyStaff.text = "Monthly Staff (${list.size})"
-            }
+
 
         })
 
