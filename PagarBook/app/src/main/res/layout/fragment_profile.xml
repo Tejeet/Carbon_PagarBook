@@ -26,7 +26,7 @@
                 android:textSize="18sp"
                 android:layout_marginLeft="20dp"
                 android:layout_gravity="center_vertical"
-                android:text="Profile"/>
+                android:text="@string/profile"/>
         </LinearLayout>
 
         <LinearLayout
@@ -38,7 +38,7 @@
                 android:id="@+id/tvPersonalInfo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Personal Info"
+                android:text="@string/personal_info"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:textSize="18sp"
@@ -70,7 +70,7 @@
              <TextView
                  android:textSize="12sp"
                  android:textColor="#858585"
-                 android:text="your name"
+                 android:text="@string/your_name"
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content" />
 
@@ -93,7 +93,7 @@
              android:paddingStart="8dp"
              android:paddingTop="4dp"
              android:paddingEnd="8dp"
-             android:text="Edit"
+             android:text="@string/edit"
              android:layout_margin="10dp"
              android:paddingBottom="4dp"
              android:textColor="@color/light_blue"
@@ -124,7 +124,7 @@
                     <TextView
                         android:textSize="12sp"
                         android:textColor="#858585"
-                        android:text="Phone Number"
+                        android:text="@string/phone_number"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -159,7 +159,7 @@
                     <TextView
                         android:textSize="12sp"
                         android:textColor="#858585"
-                        android:text="Language"
+                        android:text="@string/language"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -180,7 +180,7 @@
                     android:paddingStart="8dp"
                     android:paddingTop="4dp"
                     android:paddingEnd="8dp"
-                    android:text="Change"
+                    android:text="@string/change"
                     android:layout_margin="10dp"
                     android:paddingBottom="4dp"
                     android:textColor="@color/light_blue"
@@ -210,7 +210,7 @@
                     <TextView
                         android:textSize="12sp"
                         android:textColor="#858585"
-                        android:text="Secutiry Password"
+                        android:text="@string/security_password"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -231,7 +231,7 @@
                     android:paddingStart="8dp"
                     android:paddingTop="4dp"
                     android:paddingEnd="8dp"
-                    android:text="Change"
+                    android:text="@string/change"
                     android:layout_margin="10dp"
                     android:paddingBottom="4dp"
                     android:textColor="@color/light_blue"
@@ -248,7 +248,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Business Setting"
+                android:text="@string/business_settings"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:textSize="18sp"
@@ -280,7 +280,7 @@
                     <TextView
                         android:textSize="12sp"
                         android:textColor="#858585"
-                        android:text="Business Name"
+                        android:text="@string/business_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -303,7 +303,7 @@
                     android:paddingStart="8dp"
                     android:paddingTop="4dp"
                     android:paddingEnd="8dp"
-                    android:text="Edit"
+                    android:text="@string/edit"
                     android:layout_margin="10dp"
                     android:paddingBottom="4dp"
                     android:textColor="@color/light_blue"
@@ -334,7 +334,7 @@
                     <TextView
                         android:textSize="12sp"
                         android:textColor="#858585"
-                        android:text="Business Type"
+                        android:text="@string/business_type"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -355,7 +355,7 @@
                     android:paddingTop="4dp"
                     android:paddingEnd="8dp"
                     android:layout_margin="10dp"
-                    android:text="Change"
+                    android:text="@string/change"
                     android:paddingBottom="4dp"
                     android:textColor="@color/light_blue"
                     android:layout_marginLeft="8dp" />
@@ -382,7 +382,7 @@
                     <TextView
                         android:textSize="12sp"
                         android:textColor="#858585"
-                        android:text="Number of Staff"
+                        android:text="@string/number_of_emps"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -419,7 +419,7 @@
                     <TextView
                         android:textSize="12sp"
                         android:textColor="#858585"
-                        android:text="Make Job Poster"
+                        android:text="@string/hire_staff_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -440,7 +440,7 @@
                     android:paddingStart="8dp"
                     android:paddingTop="4dp"
                     android:paddingEnd="8dp"
-                    android:text="Create"
+                    android:text="@string/create"
                     android:paddingBottom="4dp"
                     android:textColor="@color/light_blue"
                     android:layout_marginLeft="8dp" />
@@ -470,7 +470,7 @@
 
                 <TextView
                     android:id="@+id/tvProfileHelp"
-                    android:text="Help"
+                    android:text="@string/help"
                     android:textColor="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -479,7 +479,7 @@
                 <TextView
                     android:textSize="12sp"
                     android:textColor="#858585"
-                    android:text="Learn how to use PagarBook"
+                    android:text="@string/faq_helper"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
@@ -508,7 +508,7 @@
 
                 <TextView
                     android:id="@+id/tvProfileLogout"
-                    android:text="Logout"
+                    android:text="@string/logout"
                     android:textColor="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -520,6 +520,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
+            android:layout_margin="10dp"
             android:layout_height="wrap_content">
 
             <TextView
@@ -527,7 +528,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:text="Our Promise"
+                android:text="@string/promise"
                 android:textColor="@color/black" />
 
             <LinearLayout
@@ -551,7 +552,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="start"
-                        android:text="100% Safe and Free"
+                        android:text="@string/safe_and_free"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -560,7 +561,7 @@
                         android:textSize="12sp"
                         android:textColor="@color/black"
                         android:layout_gravity="start"
-                        android:text="PagarBook is safe and totally free" />
+                        android:text="@string/safe_and_free_helper"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -586,14 +587,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="start"
-                        android:text="100% auro Data Backup"
+                        android:text="@string/full_date_backup"
                         android:textColor="@color/black" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="start"
-                        android:text="All data is linked to your phone number" />
+                        android:text="@string/full_date_backup_helper" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

@@ -5,6 +5,7 @@
     <string name="detaisBelowBussinessD">Please provide details as asked below for unique account creation</string>
     <string name="checkBoxBusiness">Get Impoertant Updates directly on WhatsApp</string>
 
+
     <string name="abbr_hours">Hrs</string>
 
     <string name="abbr_minutes">Mins</string>
@@ -1888,7 +1889,7 @@
 
     <string name="review_bulk_payment">Review Online Bulk Payment</string>
 
-    <string name="safe_and_free">100% Safe  Free</string>
+    <string name="safe_and_free">100% Safe and Free</string>
 
     <string name="safe_and_free_helper">PagarBook is safe and totally free</string>
 
