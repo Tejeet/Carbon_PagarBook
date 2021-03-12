@@ -43,16 +43,18 @@ class AccountLogin : AppCompatActivity() {
         viewModel = ViewModelProviders.of(this, viewModelFactory).get(PagarBookViewModel::class.java)
 
 
-        BtContinueLogin.setOnClickListener {
+        btn_continue_add_staff.setOnClickListener {
 
-            if (EtPhoneNumber.text.toString().isEmpty() || EtPhoneNumber.text.toString().length >10 ) {
+            if (EtPhoneNumber.text.toString()
+                    .isEmpty() || EtPhoneNumber.text.toString().length > 10
+            ) {
 
-                EtPhoneNumber.error=("Invalid Phone Number")
+                EtPhoneNumber.error = ("Invalid Phone Number")
             } else {
 
                 progressBar.visibility = View.VISIBLE
 
-                BtContinueLogin.setBackgroundResource(R.drawable.bluecontinuebt)
+                btn_continue_add_staff.setBackgroundResource(R.drawable.bluecontinuebt)
 
 
                 CoroutineScope(Dispatchers.IO).launch {
@@ -63,7 +65,7 @@ class AccountLogin : AppCompatActivity() {
 
                     Log.d(TAG, "Server side Response is $gOTP")
 
-                    if (resp.success == 1){
+                    if (resp.success == 1) {
 
                         Log.d(TAG, "Sending OTP to next page $gOTP")
                         var intent = Intent(this@AccountLogin, SubmitOTP::class.java)

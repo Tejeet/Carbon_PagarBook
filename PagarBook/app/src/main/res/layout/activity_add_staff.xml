@@ -164,7 +164,7 @@
     </ScrollView>
 
     <Button
-        android:id="@+id/btn_continue_add_staff"
+        android:id="@+id/btn_add_staff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
