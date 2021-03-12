@@ -66,7 +66,7 @@ class StaffFragment : Fragment() {
             startActivity(Intent(context, HelpActivity::class.java))
         }
 
-        viewModel.GETTOTALPending().observe(viewLifecycleOwner,{
+        viewModel.GETTOTALPending().observe(viewLifecycleOwner, Observer{
             val data = it
             view.tv_balance.text = "₹ $data"
         })
@@ -75,7 +75,7 @@ class StaffFragment : Fragment() {
 
         setRecyclerView()
 
-        viewModel.GETStaffs().observe(viewLifecycleOwner,{
+        viewModel.GETstaffdetailedSalary().observe(viewLifecycleOwner, Observer{
 
             var list = it
 
