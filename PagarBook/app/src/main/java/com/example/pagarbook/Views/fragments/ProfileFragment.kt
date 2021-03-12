@@ -27,8 +27,6 @@ class ProfileFragment : Fragment() {
         view.tvProfileLogout.setOnClickListener {
             cn.setLoginStatus(context,"0")
             System.exit(1)
-
-
         }
 
         view.tvProfileYourName.text = cn.getUserName(context)
