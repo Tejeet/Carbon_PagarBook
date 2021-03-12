@@ -99,7 +99,7 @@
 
     <Button
         app:layout_constraintBottom_toBottomOf="parent"
-        android:id="@+id/btn_continue_add_staff"
+        android:id="@+id/BtContinueLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"

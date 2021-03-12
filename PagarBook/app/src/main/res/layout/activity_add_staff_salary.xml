@@ -64,7 +64,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="24dp"
         android:layout_marginRight="16dp"
-        android:hint="Salary Amount"
+        android:hint="@string/payment_amount"
         app:layout_constraintTop_toBottomOf="@+id/til_amount">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -85,7 +85,7 @@
         android:background="#f2f2f2"
         android:layout_marginTop="24dp"
         android:layout_marginRight="16dp"
-        android:hint="Salary cycle"
+        android:hint="@string/salary_cycle"
         app:layout_constraintTop_toBottomOf="@+id/til_amount">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -93,7 +93,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="1 to 1 of every month"
+            android:text="@string/from_day_to_day"
             android:maxLines="1"
             android:textSize="16sp"
             android:textColor="@color/black" />
