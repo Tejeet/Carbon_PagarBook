@@ -1664,6 +1664,7 @@ id line1
 id line3
 id listMode
 id list_item
+id llHelp
 id llLanguage
 id llOpeningBalance
 id llProfile
@@ -1850,16 +1851,19 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tvAbsentNo
 id tvAcountInfo
 id tvAcountLogin
 id tvBulkPayment
 id tvChangeLanguage
 id tvEditBussinessName
 id tvEditYourName
+id tvHalfNo
 id tvLanguage
 id tvMonthlyStaff
 id tvPaymentLog
 id tvPersonalInfo
+id tvPresentNo
 id tvProfileBusinessName
 id tvProfileBusinessType
 id tvProfileHelp

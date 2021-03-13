@@ -14,7 +14,9 @@ import com.example.pagarbook.DataNConstants.ConstantsNData
 import com.example.pagarbook.R
 import com.example.pagarbook.Views.Activity.EditBusinessNameActivity
 import com.example.pagarbook.Views.Activity.EditUserNameActivity
+import com.example.pagarbook.Views.Activity.HelpActivity
 import kotlinx.android.synthetic.*
+import kotlinx.android.synthetic.main.fragment_profile.*
 import kotlinx.android.synthetic.main.fragment_profile.view.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -44,7 +46,8 @@ class ProfileFragment : Fragment() {
             builder.setPositiveButton("YES", DialogInterface.OnClickListener { dialog, id ->
 
                 cn.setLoginStatus(context, "0")
-                System.exit(1)
+                System.exit(0)
+
 
             })
 
@@ -84,6 +87,10 @@ class ProfileFragment : Fragment() {
         val BottomSheetLanguage=BottomSheetLanguageFragment()
         view.tvChangeLanguage.setOnClickListener {
             BottomSheetLanguage.show(activity!!.supportFragmentManager,"BottomSheetObject")
+        }
+
+        llHelp.setOnClickListener {
+            startActivity(Intent(context,HelpActivity::class.java))
         }
     }
 

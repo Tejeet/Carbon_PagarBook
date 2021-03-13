@@ -262,6 +262,8 @@
                                                 android:textColor="#5a5a5a" />
 
                                             <TextView
+                                                android:text="0"
+                                                android:id="@+id/tvPresentNo"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:textColor="@color/black"
@@ -287,6 +289,8 @@
                                                 android:textColor="#5a5a5a" />
 
                                             <TextView
+                                                android:text="0"
+                                                android:id="@+id/tvAbsentNo"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:textColor="@color/black"
@@ -312,6 +316,8 @@
                                                 android:textColor="#5a5a5a" />
 
                                             <TextView
+                                                android:id="@+id/tvHalfNo"
+                                                android:text="0"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:textColor="@color/black"
@@ -349,6 +355,7 @@
                                                 android:textColor="#5a5a5a" />
 
                                             <TextView
+                                                android:text="0"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:textColor="@color/black"
@@ -374,6 +381,7 @@
                                                 android:textColor="#5a5a5a" />
 
                                             <TextView
+                                                android:text="0"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:textColor="@color/black"
@@ -399,6 +407,7 @@
                                                 android:textColor="#5a5a5a" />
 
                                             <TextView
+                                                android:text="0"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:textColor="@color/black"
