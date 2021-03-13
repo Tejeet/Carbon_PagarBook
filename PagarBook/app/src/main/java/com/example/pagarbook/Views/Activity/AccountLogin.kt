@@ -38,7 +38,7 @@ class AccountLogin : AppCompatActivity() {
         setContentView(R.layout.activity_account_login)
 
 
-        cn.setUserMobileKey(this,EtPhoneNumber.text.toString())
+
 
         val appObj  = application as PagarBookApplication
         val reposotory : PagarBookRepository = appObj.repository
@@ -49,6 +49,12 @@ class AccountLogin : AppCompatActivity() {
 
 
         btn_continue_add_staff.setOnClickListener {
+
+            if(cn.getUserMobile(this)!=EtPhoneNumber.text.toString()){
+
+            }
+
+            cn.setUserMobileKey(this,EtPhoneNumber.text.toString())
 
             if (EtPhoneNumber.text.toString()
                     .isEmpty() || EtPhoneNumber.text.toString().length > 10

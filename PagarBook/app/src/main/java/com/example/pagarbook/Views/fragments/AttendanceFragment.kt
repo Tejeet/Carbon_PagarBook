@@ -13,18 +13,15 @@ import com.example.pagarbook.ModelsRoomDB.AttendanceEntity
 import com.example.pagarbook.ModelsRoomDB.StaffEntity
 import com.example.pagarbook.R
 import com.example.pagarbook.Repository.PagarBookRepository
+import androidx.lifecycle.Observer
 import com.example.pagarbook.ViewModel.PagarBookViewModel
 import com.example.pagarbook.ViewModel.PagarBookViewModelFactory
-import com.example.pagarbook.Views.Activity.AddStaffActivity
 import com.example.pagarbook.Views.Activity.HelpActivity
 import com.example.pagarbook.Views.Adapter.AttendanceAdapter
-import com.example.pagarbook.Views.Adapter.StaffsAdapter
 import com.example.pagarbook.Views.ApplicationClass.PagarBookApplication
 import com.example.pagarbook.Views.Listner.PresentyClickListner
 import kotlinx.android.synthetic.main.fragment_attendance.*
 import kotlinx.android.synthetic.main.fragment_attendance.view.*
-import kotlinx.android.synthetic.main.fragment_staff.*
-import kotlinx.android.synthetic.main.fragment_staff.view.*
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -64,7 +61,7 @@ class AttendanceFragment : Fragment(), PresentyClickListner {
         setRecyclerView()
 
 
-        viewModel.GETStaffs().observe(viewLifecycleOwner,{
+        viewModel.GETStaffs().observe(viewLifecycleOwner,Observer{
 
             var list = it
             staffListData.clear()
