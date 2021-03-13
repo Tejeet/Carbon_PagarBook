@@ -33,6 +33,10 @@ class AttendanceFragment : Fragment(), PresentyClickListner {
 
     private val TAG = "tag"
 
+    var present = 0;
+    var absent = 0;
+    var halfDay = 0;
+
     private lateinit var mAdapter : AttendanceAdapter
 
     override fun onCreateView(
@@ -97,6 +101,8 @@ class AttendanceFragment : Fragment(), PresentyClickListner {
         viewModel.ADDAttendance(data)
 
 
+        tvPresentNo.text = (tvPresentNo.text.toString().toInt()+1).toString()
+
     }
 
     override fun onHalfDayClick(staffEntity: StaffEntity) {
@@ -109,6 +115,8 @@ class AttendanceFragment : Fragment(), PresentyClickListner {
 
         val data = AttendanceEntity(staffEntity.id.toString(), "HALF_DAY", "1", dayAmount.toString() ,currentDate.toString())
         viewModel.ADDAttendance(data)
+
+        tvHalfNo.text = (tvHalfNo.text.toString().toInt()+1).toString()
     }
 
     override fun onAbsentClick(staffEntity: StaffEntity) {
@@ -121,6 +129,8 @@ class AttendanceFragment : Fragment(), PresentyClickListner {
 
         val data = AttendanceEntity(staffEntity.id.toString(), "ABSENT", "1", dayAmount.toString() ,currentDate.toString())
         viewModel.ADDAttendance(data)
+
+        tvAbsentNo.text = (tvAbsentNo.text.toString().toInt()+1).toString()
     }
 
 }
