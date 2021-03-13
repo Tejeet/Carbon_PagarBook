@@ -6,10 +6,6 @@ This project is a part of Unit III Evaluation and Curriculam part of masai Schoo
 
 We are cloning this app [Pagar Book](https://play.google.com/store/apps/details?id=com.gyantech.pagarbook&hl=en_IN&gl=US) Checkout Here
 
-Original App | #Cloned App
- --- | --- 
- ![Original Meetly](example/originalsm.gif) | ![Cloned Meetly](example/clonedsm.gif)
-
 
 This Project is made in Kotlin Language with Android Studio IDE. We have used the core Java and some third party dependency as mentioned below
 Dependency Used 
