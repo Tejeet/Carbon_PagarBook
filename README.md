@@ -1,7 +1,7 @@
 # Team_Carbon 
 We are cloning the Pagar Boom App ! <img src="https://tejeet.com/shared/pagarbookclone/logo.png" alt="App Logo" width="200"/>
 
-![Visitor Count](https://profile-counter.glitch.me/{YOUR USER}/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/Tejeet/count.svg)
 
 This project is a part of Unit III Evaluation and Curriculam part of masai School.
 
