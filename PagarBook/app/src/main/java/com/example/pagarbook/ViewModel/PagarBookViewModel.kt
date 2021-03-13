@@ -36,4 +36,5 @@ class PagarBookViewModel(val repo : PagarBookRepository) : ViewModel() {
     fun GETTOTALSALARYbyuserID(uid: String) : LiveData<String> {
         return repo.getTOTALSALARYbyUSERID(uid)
     }
+
 }
