@@ -1,5 +1,5 @@
 # Team_Carbon 
-We are cloning the Pagar Boom App ! <img src="https://tejeet.com/shared/meetlyclone/logo.png" alt="App Logo" width="200"/>
+We are cloning the Pagar Boom App ! <img src="https://tejeet.com/shared/pagarbookclone/logo.png" alt="App Logo" width="200"/>
 
 
 This project is a part of Unit III Evaluation and Curriculam part of masai School.
