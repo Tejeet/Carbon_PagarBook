@@ -18,3 +18,36 @@ Team Members
 - [Tejeet Magar](https://tejeet.com/)
 - Manish Kumar
 - Ravi Solanki
+
+## App Screenshots
+
+<table>
+  <tr>
+    <td><img src="" width="200"/></td>
+    <td><img src="" width="200"/></td>
+    <td><img src="" width="200"/></td>
+    <td><img src="" width="200"/></td>
+  </tr>
+  
+  <tr>
+    <td><img src="" width="200"/></td>
+    <td><img src="" width="200"/></td>
+    <td><img src="" width="200"/></td>
+    <td><img src="" width="200"/></td>
+  </tr>
+ 
+ </table>
+
+## Libraries & Tech Used
+- Minimum SDK level 21
+- [Kotlin](https://kotlinlang.org/) based, [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) for asynchronous handling.
+- JetPack
+- LiveData - notify domain layer data to views.
+- Lifecycle - observing data when lifecycle state changes.
+- ViewModel - lifecycle aware UI related data holder.
+- [Room Database](https://developer.android.com/training/data-storage/room) - for local storage
+- Architecture - MVVM Architecture (View - ViewModel) 
+- [Glide](https://github.com/bumptech/glide) - loading images.
+- [Navigation Component](https://developer.android.com/jetpack/androidx/releases/navigation) for bottom-bar navigation.
+- [Youtube Player](https://developers.google.com/youtube/android/player) for playing trailers
+- WebView
