@@ -23,17 +23,17 @@ Team Members
 
 <table>
   <tr>
-    <td><img src="" width="200"/></td>
-    <td><img src="" width="200"/></td>
-    <td><img src="" width="200"/></td>
-    <td><img src="" width="200"/></td>
+    <td><img src="pagarone.png" width="200"/></td>
+    <td><img src="pagartwo.png" width="200"/></td>
+    <td><img src="pagarthree.png" width="200"/></td>
+    <td><img src="pagarfour.png" width="200"/></td>
   </tr>
   
   <tr>
-    <td><img src="" width="200"/></td>
-    <td><img src="" width="200"/></td>
-    <td><img src="" width="200"/></td>
-    <td><img src="" width="200"/></td>
+    <td><img src="pagarfive.png" width="200"/></td>
+    <td><img src="pagarsix.png" width="200"/></td>
+    <td><img src="pagarseven.png" width="200"/></td>
+    <td><img src="pagareight.png" width="200"/></td>
   </tr>
  
  </table>
